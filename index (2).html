@@ -1,0 +1,2910 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pecel Lele Kremes Cah Jowo — Pecel Lele Nusantara</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'system-ui', '-apple-system', 'sans-serif']
+          },
+          colors: {
+            alabaster: '#FAF7F2',
+            surface: '#FFFFFF',
+            stonewarm: '#F2EDE4',
+            espresso: '#1C1917',
+            espressoMuted: '#57534E',
+            espressoSoft: '#78716C',
+            chili: '#C2410C',
+            chiliHover: '#9A3412',
+            amberFlame: '#EA580C',
+            amberSoft: '#FFF7ED',
+            sageLeaf: '#2F5D46',
+            sageSoft: '#ECFDF5',
+            linewarm: '#E7E2D8'
+          },
+          boxShadow: {
+            editorial: '0 14px 36px -14px rgba(28, 25, 23, 0.10)',
+            card: '0 4px 18px -6px rgba(28, 25, 23, 0.06)',
+            floating: '0 24px 60px -18px rgba(28, 25, 23, 0.22)'
+          }
+        }
+      }
+    };
+  </script>
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+    html, body {
+      width: 100%;
+      max-width: 100%;
+      overflow-x: hidden;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+      background-color: #FAF7F2;
+      color: #1C1917;
+      -webkit-font-smoothing: antialiased;
+    }
+    .tabular-nums {
+      font-variant-numeric: tabular-nums;
+    }
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    .no-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+  </style>
+</head>
+<body class="bg-alabaster text-espresso w-full flex flex-col selection:bg-chili/15 selection:text-chili">
+            <path d="M12 3c-1.8 2.2-1.8 4.4 0 6.5s1.8 4.3 0 6.5" />
+            <path d="M5 16h14" />
+            <path d="M6.5 16a5.5 5.5 0 0 0 11 0" />
+            <path d="M8.5 20h7" />
+          </svg>
+        </div>
+        <div class="min-w-0">
+          <div class="flex items-center gap-2 flex-wrap">
+            <span id="nav-brand-title" class="text-sm sm:text-base font-extrabold tracking-tight text-espresso truncate">
+              Pecel Lele Kremes Cah Jowo
+            </span>
+            <span id="nav-store-status-badge" class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full text-[11px] font-bold bg-sageSoft text-sageLeaf border border-sageLeaf/20">
+              <span id="nav-store-status-dot" class="w-1.5 h-1.5 rounded-full bg-sageLeaf"></span>
+              <span id="nav-store-status-text">Buka</span>
+            </span>
+          </div>
+          <p id="nav-brand-tagline" class="text-[11px] sm:text-xs font-medium text-espressoSoft truncate">
+            Pecel Lele Nusantara
+          </p>
+        </div>
+      </a>
+
+      <!-- Quick Links (Desktop) -->
+      <nav aria-label="Navigasi Utama" class="hidden md:flex items-center gap-6 text-sm font-semibold text-espressoMuted">
+        <a href="#menu" class="hover:text-chili transition-colors">Menu</a>
+        <a href="#keunggulan" class="hover:text-chili transition-colors">Keunggulan</a>
+        <a href="#lokasi" class="hover:text-chili transition-colors">Lokasi</a>
+      </nav>
+
+      <!-- Actions: Operator Mode & Cart -->
+      <div class="flex items-center gap-2 shrink-0">
+        <button
+          type="button"
+          onclick="handleOperatorButtonClick()"
+          id="nav-operator-btn"
+          class="inline-flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-bold border border-linewarm bg-surface hover:border-chili/40 hover:text-chili text-espresso transition cursor-pointer"
+        >
+          <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z" />
+            <circle cx="12" cy="12" r="3" />
+          </svg>
+          <span class="hidden sm:inline">Mode Operator</span>
+          <span class="sm:hidden">Operator</span>
+        </button>
+
+        <button
+          type="button"
+          onclick="openCartDrawer()"
+          class="inline-flex items-center gap-2 px-3.5 py-2 rounded-xl text-xs sm:text-sm font-bold bg-chili hover:bg-chiliHover text-surface shadow-card transition cursor-pointer"
+        >
+          <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="8" cy="21" r="1" />
+            <circle cx="19" cy="21" r="1" />
+            <path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12" />
+          </svg>
+          <span>Keranjang</span>
+          <span id="nav-cart-badge" class="tabular-nums px-1.5 py-0.5 rounded-full bg-surface text-chili text-[11px] font-extrabold">
+            0
+          </span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Active Operator Mode Indicator Strip -->
+    <div id="operator-active-strip" class="hidden bg-espresso text-surface border-t border-white/10">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 py-2 flex flex-wrap items-center justify-between gap-2 text-xs">
+        <div class="flex items-center gap-2">
+          <span class="w-2 h-2 rounded-full bg-amberFlame animate-pulse"></span>
+          <span class="font-bold">Mode Operator Aktif</span>
+          <span class="text-white/70 hidden sm:inline">&mdash; Perubahan menu, harga, stok, promo, dan gambar tersimpan otomatis di browser.</span>
+        </div>
+        <div class="flex items-center gap-2">
+          <button
+            type="button"
+            onclick="openOperatorPanel('menu')"
+            class="px-2.5 py-1 rounded-lg bg-amberFlame hover:bg-chili text-surface font-bold transition cursor-pointer"
+          >
+            Buka Panel Kelola Toko
+          </button>
+          <button
+            type="button"
+            onclick="lockOperatorMode()"
+            class="px-2.5 py-1 rounded-lg bg-white/10 hover:bg-white/20 text-white font-semibold transition cursor-pointer"
+          >
+            Kunci Mode
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===================================================================== -->
+  <!-- 2. LIVE PROMO / ANNOUNCEMENT BANNER                                   -->
+  <!-- ===================================================================== -->
+  <div id="promo-banner-wrapper" class="hidden bg-amberSoft border-b border-chili/15">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 py-2.5 flex items-center justify-between gap-3">
+      <div class="flex items-center gap-2.5 min-w-0">
+        <span class="px-2 py-0.5 rounded-md bg-chili text-surface text-[11px] font-extrabold uppercase tracking-wide shrink-0">
+          Promo
+        </span>
+        <p id="promo-banner-text" class="text-xs sm:text-sm font-semibold text-espresso truncate">
+          Gratis Es Teh Manis untuk setiap pembelian Paket Lele Kremes hari ini!
+        </p>
+      </div>
+      <button
+        type="button"
+        onclick="quickFilterSambal()"
+        class="text-xs font-bold text-chili hover:text-chiliHover shrink-0 cursor-pointer"
+      >
+        Cek Menu &rarr;
+      </button>
+    </div>
+  </div>
+
+  <!-- ===================================================================== -->
+  <!-- MAIN CONTENT                                                          -->
+  <!-- ===================================================================== -->
+  <main class="flex-1">
+    <!-- 3. HERO SECTION -->
+    <section id="beranda" class="max-w-6xl mx-auto px-4 sm:px-6 pt-10 pb-14 sm:pt-14 sm:pb-20">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-center">
+        <!-- Editorial Left Column -->
+        <div class="lg:col-span-7 space-y-5">
+          <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-surface border border-linewarm text-xs font-bold text-chili shadow-card">
+            <span class="w-2 h-2 rounded-full bg-amberFlame"></span>
+            <span>Kremes Gurih Berlapis &bull; Sambal Nusantara Segar</span>
+          </div>
+
+          <h1 class="text-3xl sm:text-5xl font-extrabold tracking-tight text-espresso leading-[1.12]">
+            Pecel Lele Kremes Cah Jowo <span class="text-chili">&mdash; Pecel Lele Nusantara</span>
+          </h1>
+
+          <p class="text-sm sm:text-base text-espressoMuted leading-relaxed max-w-2xl">
+            Lele pilihan berbumbu rempah hangat digoreng dadakan bersama taburan kremes renyah berlapis,
+            nasi pulen mengepul, lalapan segar, dan aneka racikan sambal Nusantara yang menggugah selera.
+          </p>
+
+          <div class="flex flex-wrap items-center gap-3 pt-1">
+            <a
+              href="#menu"
+              class="inline-flex items-center justify-center gap-2 px-5 py-3 rounded-xl bg-chili hover:bg-chiliHover text-surface text-sm font-bold shadow-card transition cursor-pointer"
+            >
+              <span>Pesan Sekarang</span>
+              <span aria-hidden="true">&rarr;</span>
+            </a>
+            <button
+              type="button"
+              onclick="quickFilterSambal()"
+              class="inline-flex items-center justify-center gap-2 px-5 py-3 rounded-xl bg-surface hover:bg-stonewarm text-espresso border border-linewarm text-sm font-bold transition cursor-pointer"
+            >
+              <span>Lihat Varian Sambal</span>
+            </button>
+          </div>
+
+          <div class="grid grid-cols-3 gap-3 sm:gap-5 pt-4 border-t border-linewarm max-w-lg">
+            <div>
+              <p class="text-lg sm:text-xl font-extrabold text-espresso tabular-nums">100%</p>
+              <p class="text-[11px] sm:text-xs text-espressoSoft">Digoreng Dadakan</p>
+            </div>
+            <div>
+              <p class="text-lg sm:text-xl font-extrabold text-espresso tabular-nums">4+ Varian</p>
+              <p class="text-[11px] sm:text-xs text-espressoSoft">Sambal Nusantara</p>
+            </div>
+            <div>
+              <p class="text-lg sm:text-xl font-extrabold text-espresso tabular-nums">Setiap Hari</p>
+              <p class="text-[11px] sm:text-xs text-espressoSoft">Bahan Segar Pilihan</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Signature Dish Card (Operator-Editable) -->
+        <div class="lg:col-span-5">
+          <div class="bg-surface rounded-3xl border border-linewarm shadow-editorial overflow-hidden p-3.5 sm:p-4">
+            <div class="relative aspect-[4/3] w-full rounded-2xl overflow-hidden bg-stonewarm border border-linewarm">
+              <img
+                id="hero-dish-img"
+                src=""
+                alt="Signature Dish Pecel Lele Kremes Cah Jowo"
+                class="w-full h-full object-cover"
+              />
+              <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-espresso/75 via-espresso/15 to-transparent"></div>
+
+              <div class="absolute top-3 left-3 right-3 flex items-center justify-between gap-2">
+                <span id="hero-dish-badge" class="px-3 py-1 rounded-full bg-surface/95 text-chili text-xs font-extrabold shadow-card">
+                  Andalan Cah Jowo
+                </span>
+                <button
+                  type="button"
+                  id="hero-edit-shortcut"
+                  onclick="handleHeroQuickEdit()"
+                  class="hidden px-2.5 py-1 rounded-full bg-espresso/85 hover:bg-espresso text-surface text-[11px] font-bold transition cursor-pointer"
+                >
+                  Edit Gambar Hero
+                </button>
+              </div>
+
+              <div class="absolute bottom-3.5 left-3.5 right-3.5 text-surface">
+                <p id="hero-dish-subtitle" class="text-[11px] font-bold uppercase tracking-wider text-amberSoft">
+                  Lele Goreng Kremes &bull; Sambal Terasi &amp; Ijo
+                </p>
+                <h2 id="hero-dish-title" class="text-lg sm:text-xl font-extrabold leading-snug mt-0.5">
+                  Paket Lele Kremes Cah Jowo
+                </h2>
+              </div>
+            </div>
+
+            <div class="pt-3.5 px-1 flex items-center justify-between gap-3">
+              <div>
+                <p class="text-[11px] font-medium text-espressoSoft">Mulai dari</p>
+                <p id="hero-dish-price" class="text-base sm:text-lg font-extrabold text-espresso tabular-nums">Rp 22.000</p>
+              </div>
+              <button
+                type="button"
+                id="hero-order-btn"
+                onclick="orderHeroSignature()"
+                class="px-4 py-2.5 rounded-xl bg-amberSoft hover:bg-chili text-chili hover:text-surface text-xs sm:text-sm font-bold transition-colors cursor-pointer"
+              >
+                + Tambah ke Keranjang
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================================== -->
+    <!-- 4. MENU CATALOG SECTION                                               -->
+    <!-- ===================================================================== -->
+    <section id="menu" class="max-w-6xl mx-auto px-4 sm:px-6 py-12 sm:py-16 border-t border-linewarm">
+      <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-7">
+        <div>
+          <p class="text-xs font-extrabold uppercase tracking-wider text-chili">Katalog Hidangan</p>
+          <h2 class="text-2xl sm:text-3xl font-extrabold tracking-tight text-espresso mt-1">
+            Pilihan Menu Pecel Lele &amp; Nusantara
+          </h2>
+          <p class="text-xs sm:text-sm text-espressoMuted mt-1">
+            Pilih menu favorit Anda, padukan sambal daerah, lalu kirim pesanan langsung lewat ringkasan atau WhatsApp.
+          </p>
+        </div>
+
+        <!-- Search Input -->
+        <div class="relative w-full md:w-72">
+          <svg class="w-4 h-4 text-espressoSoft absolute left-3.5 top-1/2 -translate-y-1/2 pointer-events-none" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="11" cy="11" r="8" />
+            <path d="m21 21-4.3-4.3" />
+          </svg>
+          <input
+            type="search"
+            id="menu-search-input"
+            oninput="handleSearchInput(this.value)"
+            placeholder="Cari lele, kremes, sambal, es teh..."
+            aria-label="Cari menu"
+            class="w-full pl-10 pr-4 py-2.5 rounded-xl bg-surface border border-linewarm text-sm text-espresso placeholder:text-espressoSoft focus:outline-none focus:ring-2 focus:ring-chili/25 focus:border-chili transition"
+          />
+        </div>
+      </div>
+
+      <!-- Category Filter Pills -->
+      <div id="category-pills-container" class="flex items-center gap-2 overflow-x-auto no-scrollbar pb-2 mb-7">
+        <!-- Populated dynamically via JS -->
+      </div>
+
+      <!-- Menu Grid -->
+      <div id="menu-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6">
+        <!-- Populated dynamically via JS -->
+      </div>
+
+      <!-- Empty Search / Filter State -->
+      <div id="menu-empty-state" class="hidden text-center py-14 px-4 bg-surface rounded-3xl border border-linewarm mt-4">
+        <p class="text-base font-extrabold text-espresso">Menu tidak ditemukan</p>
+        <p class="text-xs sm:text-sm text-espressoMuted mt-1">
+          Coba kata kunci lain atau tampilkan semua kategori hidangan.
+        </p>
+        <button
+          type="button"
+          onclick="resetMenuFilters()"
+          class="mt-4 px-4 py-2 rounded-xl bg-chili hover:bg-chiliHover text-surface text-xs font-bold transition cursor-pointer"
+        >
+          Reset Filter Menu
+        </button>
+      </div>
+    </section>
+
+    <!-- ===================================================================== -->
+    <!-- 5. NUSANTARA HIGHLIGHTS ("KEUNGGULAN CAH JOWO")                       -->
+    <!-- ===================================================================== -->
+    <section id="keunggulan" class="max-w-6xl mx-auto px-4 sm:px-6 py-12 sm:py-16 border-t border-linewarm">
+      <div class="max-w-xl mb-8">
+        <p class="text-xs font-extrabold uppercase tracking-wider text-chili">Keunggulan Cah Jowo</p>
+        <h2 class="text-2xl sm:text-3xl font-extrabold tracking-tight text-espresso mt-1">
+          Cita Rasa Hangat yang Konsisten di Setiap Suapan
+        </h2>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-5 sm:gap-6">
+        <div class="bg-surface rounded-3xl border border-linewarm p-6 shadow-card space-y-3">
+          <div class="w-10 h-10 rounded-2xl bg-amberSoft text-chili flex items-center justify-center font-extrabold text-sm">
+            01
+          </div>
+          <h3 class="text-lg font-extrabold text-espresso">Kremes Renyah Berlapis</h3>
+          <p class="text-sm text-espressoMuted leading-relaxed">
+            Diracik dari tepung pilihan dan kaldu rempah gurih yang dituang bertahap sehingga menghasilkan tekstur sarang yang garing, ringan, dan tidak berminyak berlebih.
+          </p>
+        </div>
+
+        <div class="bg-surface rounded-3xl border border-linewarm p-6 shadow-card space-y-3">
+          <div class="w-10 h-10 rounded-2xl bg-amberSoft text-chili flex items-center justify-center font-extrabold text-sm">
+            02
+          </div>
+          <h3 class="text-lg font-extrabold text-espresso">Racikan Sambal Nusantara</h3>
+          <p class="text-sm text-espressoMuted leading-relaxed">
+            Dari sambal terasi bakar khas Jawa yang gurih manis-pedas hingga sambal ijo, matah, dan dabu-dabu segar yang diracik proporsional untuk melengkapi setiap lauk.
+          </p>
+        </div>
+
+        <div class="bg-surface rounded-3xl border border-linewarm p-6 shadow-card space-y-3">
+          <div class="w-10 h-10 rounded-2xl bg-amberSoft text-chili flex items-center justify-center font-extrabold text-sm">
+            03
+          </div>
+          <h3 class="text-lg font-extrabold text-espresso">Bahan Segar Harian</h3>
+          <p class="text-sm text-espressoMuted leading-relaxed">
+            Lele, ayam, sayur lalapan, dan cabai dipersiapkan setiap hari lalu dimasak dadakan saat pesanan masuk agar kehangatan dan kesegarannya tetap terjaga.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================================================================== -->
+  <!-- 7. FOOTER                                                             -->
+  <!-- ===================================================================== -->
+  <footer id="lokasi" class="bg-surface border-t border-linewarm mt-8">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 py-12">
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-8 pb-8 border-b border-linewarm">
+        <div class="md:col-span-5 space-y-2.5">
+          <h3 id="footer-brand-title" class="text-lg font-extrabold text-espresso">
+            Pecel Lele Kremes Cah Jowo
+          </h3>
+          <p id="footer-brand-tagline" class="text-xs font-bold uppercase tracking-wider text-chili">
+            Pecel Lele Nusantara
+          </p>
+          <p class="text-sm text-espressoMuted leading-relaxed">
+            Menghadirkan kehangatan kuliner pecel lele kremes dan sambal Nusantara dengan pelayanan rapi dan cita rasa bersahabat.
+          </p>
+        </div>
+
+        <div class="md:col-span-4 space-y-2 text-sm">
+          <p class="font-extrabold text-espresso">Jam Operasional &amp; Lokasi</p>
+          <p id="footer-hours" class="text-espressoMuted whitespace-pre-line">
+            Setiap Hari: 11.00 &ndash; 23.00 WIB
+          </p>
+          <p id="footer-address" class="text-espressoMuted pt-1">
+            Jl. Melati Nusantara No. 28, Tangerang Selatan
+          </p>
+        </div>
+
+        <div class="md:col-span-3 space-y-2.5 text-sm">
+          <p class="font-extrabold text-espresso">Kontak &amp; Pengelolaan</p>
+          <p class="text-espressoMuted">
+            WhatsApp: <span id="footer-whatsapp" class="font-semibold text-espresso tabular-nums">6281234567890</span>
+          </p>
+          <p class="text-espressoMuted">
+            Instagram: <span id="footer-instagram" class="font-semibold text-espresso">@pecellelecahjowo</span>
+          </p>
+          <button
+            type="button"
+            onclick="handleOperatorButtonClick()"
+            class="inline-flex items-center gap-1.5 text-xs font-bold text-chili hover:text-chiliHover pt-1 cursor-pointer"
+          >
+            <span>Buka Mode Operator / Kelola Toko &rarr;</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="pt-6 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-espressoSoft">
+        <p>&copy; <span id="footer-year">2026</span> Pecel Lele Kremes Cah Jowo &mdash; Pecel Lele Nusantara.</p>
+        <p>Katalog &amp; Pengaturan Toko Tersimpan Lokal</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===================================================================== -->
+  <!-- 6. ORDER CART & CHECKOUT DRAWER                                       -->
+  <!-- ===================================================================== -->
+  <div id="cart-drawer-backdrop" class="hidden fixed inset-0 z-50 bg-espresso/50 backdrop-blur-xs flex justify-end">
+    <aside
+      id="cart-drawer-panel"
+      aria-label="Keranjang Pesanan"
+      class="w-full max-w-md bg-surface h-full shadow-floating flex flex-col justify-between border-l border-linewarm"
+    >
+      <!-- Cart Header -->
+      <div class="px-5 py-4 border-b border-linewarm flex items-center justify-between">
+        <div>
+          <h2 class="text-base font-extrabold text-espresso">Keranjang Pesanan</h2>
+          <p class="text-xs text-espressoSoft">Periksa item sebelum membuat ringkasan order</p>
+        </div>
+        <button
+          type="button"
+          onclick="closeCartDrawer()"
+          aria-label="Tutup keranjang"
+          class="w-9 h-9 rounded-xl bg-alabaster hover:bg-stonewarm border border-linewarm flex items-center justify-center text-espresso font-bold cursor-pointer"
+        >
+          &times;
+        </button>
+      </div>
+
+      <!-- Cart Body -->
+      <div class="flex-1 overflow-y-auto px-5 py-4 space-y-5">
+        <!-- Items List -->
+        <div id="cart-items-container" class="space-y-3">
+          <!-- Populated via JS -->
+        </div>
+
+        <!-- Order Form -->
+        <div id="cart-checkout-form" class="hidden space-y-4 pt-4 border-t border-linewarm">
+          <div>
+            <label class="block text-xs font-bold text-espresso mb-1.5">Tipe Pesanan</label>
+            <div class="grid grid-cols-2 gap-2">
+              <button
+                type="button"
+                id="order-type-dinein"
+                onclick="setOrderType('Dine-in / Ambil di Outlet')"
+                class="px-3 py-2 rounded-xl text-xs font-bold border transition cursor-pointer bg-chili text-surface border-chili"
+              >
+                Dine-in / Ambil di Outlet
+              </button>
+              <button
+                type="button"
+                id="order-type-delivery"
+                onclick="setOrderType('Delivery / Pesan Antar')"
+                class="px-3 py-2 rounded-xl text-xs font-bold border transition cursor-pointer bg-alabaster text-espresso border-linewarm hover:bg-stonewarm"
+              >
+                Delivery / Pesan Antar
+              </button>
+            </div>
+          </div>
+
+          <div>
+            <label for="customer-name-input" class="block text-xs font-bold text-espresso mb-1">
+              Nama Pemesan <span class="text-chili">*</span>
+            </label>
+            <input
+              type="text"
+              id="customer-name-input"
+              placeholder="Contoh: Budi Santoso"
+              class="w-full px-3.5 py-2.5 rounded-xl bg-alabaster border border-linewarm text-sm text-espresso focus:outline-none focus:ring-2 focus:ring-chili/25 focus:border-chili"
+            />
+          </div>
+
+          <div>
+            <label for="customer-notes-input" class="block text-xs font-bold text-espresso mb-1">
+              Catatan Tambahan (Level Pedas / Alamat Antar)
+            </label>
+            <textarea
+              id="customer-notes-input"
+              rows="2"
+              placeholder="Contoh: Sambal dipisah, ekstra kremes, atau alamat lengkap..."
+              class="w-full px-3.5 py-2 rounded-xl bg-alabaster border border-linewarm text-sm text-espresso focus:outline-none focus:ring-2 focus:ring-chili/25 focus:border-chili resize-none"
+            ></textarea>
+          </div>
+
+          <!-- Order Summary Output -->
+          <div id="order-summary-box" class="hidden rounded-2xl bg-alabaster border border-linewarm p-3.5 space-y-2.5">
+            <div class="flex items-center justify-between">
+              <span class="text-xs font-extrabold text-espresso">Ringkasan Pesanan</span>
+              <button
+                type="button"
+                onclick="copyOrderSummary()"
+                class="text-xs font-bold text-chili hover:text-chiliHover cursor-pointer"
+              >
+                Salin Teks
+              </button>
+            </div>
+            <pre id="order-summary-text" class="text-[11px] leading-relaxed text-espressoMuted whitespace-pre-wrap font-sans bg-surface p-2.5 rounded-xl border border-linewarm"></pre>
+            <a
+              id="order-whatsapp-link"
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="w-full inline-flex items-center justify-center gap-2 py-2.5 px-4 rounded-xl bg-sageLeaf hover:opacity-95 text-surface text-xs font-bold transition"
+            >
+              <span>Kirim Pesanan ke WhatsApp</span>
+              <span aria-hidden="true">&rarr;</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cart Footer -->
+      <div id="cart-footer" class="hidden px-5 py-4 border-t border-linewarm bg-alabaster space-y-3">
+        <div class="space-y-1 text-xs">
+          <div class="flex justify-between text-espressoMuted">
+            <span>Subtotal Menu</span>
+            <span id="cart-subtotal" class="font-bold text-espresso tabular-nums">Rp 0</span>
+          </div>
+          <div class="flex justify-between text-espressoSoft">
+            <span>Kemasan &amp; Layanan</span>
+            <span>Termasuk / Menyesuaikan rute</span>
+          </div>
+          <div class="flex justify-between text-sm font-extrabold text-espresso pt-1.5 border-t border-linewarm">
+            <span>Total Estimasi</span>
+            <span id="cart-total" class="text-chili tabular-nums">Rp 0</span>
+          </div>
+        </div>
+
+        <button
+          type="button"
+          onclick="generateOrderSummary()"
+          class="w-full py-3 px-4 rounded-xl bg-chili hover:bg-chiliHover text-surface text-sm font-bold shadow-card transition cursor-pointer"
+        >
+          Buat Ringkasan Pesanan
+        </button>
+      </div>
+    </aside>
+  </div>
+
+  <!-- ===================================================================== -->
+  <!-- OPERATOR PIN MODAL                                                    -->
+  <!-- ===================================================================== -->
+  <div id="operator-pin-modal" class="hidden fixed inset-0 z-50 bg-espresso/60 backdrop-blur-xs flex items-center justify-center p-4">
+    <div class="w-full max-w-sm bg-surface rounded-3xl border border-linewarm shadow-floating p-6 space-y-4">
+      <div class="flex items-start justify-between gap-2">
+        <div>
+          <p class="text-[11px] font-extrabold uppercase tracking-wider text-chili">Akses Terbatas</p>
+          <h2 class="text-lg font-extrabold text-espresso mt-0.5">Masuk Mode Operator</h2>
+          <p class="text-xs text-espressoMuted mt-1">
+            Masukkan PIN operator (default: <strong class="font-mono text-espresso">1234</strong>) atau gunakan akses cepat uji coba.
+          </p>
+        </div>
+        <button
+          type="button"
+          onclick="closePinModal()"
+          aria-label="Tutup modal PIN"
+          class="w-8 h-8 rounded-xl bg-alabaster hover:bg-stonewarm border border-linewarm text-espresso font-bold cursor-pointer"
+        >
+          &times;
+        </button>
+      </div>
+
+      <form onsubmit="handlePinSubmit(event)" class="space-y-3">
+        <div>
+          <label for="operator-pin-input" class="block text-xs font-bold text-espresso mb-1">PIN Operator</label>
+          <input
+            type="password"
+            id="operator-pin-input"
+            inputmode="numeric"
+            maxlength="12"
+            placeholder="Masukkan PIN (contoh: 1234)"
+            class="w-full px-3.5 py-2.5 rounded-xl bg-alabaster border border-linewarm text-sm text-espresso font-mono tracking-widest focus:outline-none focus:ring-2 focus:ring-chili/25 focus:border-chili"
+          />
+          <p id="operator-pin-error" class="hidden text-xs font-semibold text-chili mt-1">
+            PIN tidak sesuai. Silakan coba lagi atau klik Akses Cepat.
+          </p>
+        </div>
+
+        <div class="flex flex-col sm:flex-row gap-2 pt-1">
+          <button
+            type="button"
+            onclick="quickUnlockOperator()"
+            class="flex-1 py-2.5 px-3 rounded-xl bg-amberSoft hover:bg-chili/15 text-chili text-xs font-bold border border-chili/20 transition cursor-pointer"
+          >
+            Akses Cepat (Demo)
+          </button>
+          <button
+            type="submit"
+            class="flex-1 py-2.5 px-4 rounded-xl bg-chili hover:bg-chiliHover text-surface text-xs font-bold transition cursor-pointer"
+          >
+            Buka Mode Operator
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- ===================================================================== -->
+  <!-- OPERATOR MANAGEMENT DRAWER / PANEL ("MODE OPERATOR / KELOLA TOKO")    -->
+  <!-- ===================================================================== -->
+  <div id="operator-panel-backdrop" class="hidden fixed inset-0 z-50 bg-espresso/55 backdrop-blur-xs flex justify-end">
+    <aside
+      id="operator-panel-drawer"
+      aria-label="Panel Mode Operator Kelola Toko"
+      class="w-full max-w-4xl bg-alabaster h-full shadow-floating flex flex-col border-l border-linewarm"
+    >
+      <!-- Top Bar -->
+      <div class="px-5 py-4 bg-surface border-b border-linewarm flex flex-wrap items-center justify-between gap-3">
+        <div class="flex items-center gap-2.5">
+          <span class="px-2.5 py-1 rounded-lg bg-chili text-surface text-xs font-extrabold">
+            MODE OPERATOR
+          </span>
+          <div>
+            <h2 class="text-base sm:text-lg font-extrabold text-espresso leading-tight">Kelola Toko &mdash; Cah Jowo</h2>
+            <p class="text-[11px] text-espressoSoft">Edit profil, promo, menu, stok, gambar, dan cadangan data</p>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-2">
+          <button
+            type="button"
+            onclick="lockOperatorMode()"
+            class="px-3 py-1.5 rounded-xl bg-alabaster hover:bg-stonewarm border border-linewarm text-xs font-bold text-espressoMuted cursor-pointer"
+          >
+            Kunci
+          </button>
+          <button
+            type="button"
+            onclick="closeOperatorPanel()"
+            aria-label="Tutup panel operator"
+            class="w-9 h-9 rounded-xl bg-alabaster hover:bg-stonewarm border border-linewarm text-espresso font-bold cursor-pointer"
+          >
+            &times;
+          </button>
+        </div>
+      </div>
+
+      <!-- Navigation Tabs -->
+      <div class="px-5 py-2.5 bg-surface border-b border-linewarm flex items-center gap-2 overflow-x-auto no-scrollbar">
+        <button
+          type="button"
+          id="op-tab-btn-store"
+          onclick="switchOperatorTab('store')"
+          class="px-3.5 py-2 rounded-xl text-xs font-bold transition whitespace-nowrap cursor-pointer bg-chili text-surface"
+        >
+          1. Profil &amp; Status Toko
+        </button>
+        <button
+          type="button"
+          id="op-tab-btn-menu"
+          onclick="switchOperatorTab('menu')"
+          class="px-3.5 py-2 rounded-xl text-xs font-bold transition whitespace-nowrap cursor-pointer bg-alabaster text-espresso hover:bg-stonewarm"
+        >
+          2. Kelola Menu &amp; Harga
+        </button>
+        <button
+          type="button"
+          id="op-tab-btn-data"
+          onclick="switchOperatorTab('data')"
+          class="px-3.5 py-2 rounded-xl text-xs font-bold transition whitespace-nowrap cursor-pointer bg-alabaster text-espresso hover:bg-stonewarm"
+        >
+          3. Data &amp; Cadangan
+        </button>
+      </div>
+
+      <!-- Scrollable Operator Content -->
+      <div class="flex-1 overflow-y-auto p-5 space-y-6">
+
+        <!-- ----------------------------------------------------------------- -->
+        <!-- TAB 1: PROFIL & STATUS TOKO + HERO SIGNATURE DISH                 -->
+        <!-- ----------------------------------------------------------------- -->
+        <section id="op-tab-store" class="space-y-5">
+          <form onsubmit="handleSaveStoreSettings(event)" class="bg-surface rounded-3xl border border-linewarm p-5 shadow-card space-y-5">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-4 border-b border-linewarm">
+              <div>
+                <h3 class="text-base font-extrabold text-espresso">Identitas, Jam Buka &amp; Banner Promo</h3>
+                <p class="text-xs text-espressoMuted">Perubahan langsung tampil di halaman depan pelanggan.</p>
+              </div>
+              <label class="inline-flex items-center gap-2.5 px-3.5 py-2 rounded-xl bg-alabaster border border-linewarm cursor-pointer select-none">
+                <input
+                  type="checkbox"
+                  id="op-store-is-open"
+                  class="w-4 h-4 accent-chili rounded cursor-pointer"
+                />
+                <span class="text-xs font-bold text-espresso">Outlet Sedang Buka</span>
+              </label>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div>
+                <label for="op-brand-name" class="block text-xs font-bold text-espresso mb-1">Nama Brand Utama</label>
+                <input
+                  type="text"
+                  id="op-brand-name"
+                  class="w-full px-3.5 py-2 rounded-xl bg-alabaster border border-linewarm text-sm text-espresso focus:outline-none focus:ring-2 focus:ring-chili/25"
+                />
+              </div>
+
+              <div>
+                <label for="op-brand-tagline" class="block text-xs font-bold text-espresso mb-1">Subtitle / Tagline Brand</label>
+                <input
+                  type="text"
+                  id="op-brand-tagline"
+                  class="w-full px-3.5 py-2 rounded-xl bg-alabaster border border-linewarm text-sm text-espresso focus:outline-none focus:ring-2 focus:ring-chili/25"
+                />
+              </div>
+
+              <div>
+                <label for="op-whatsapp" class="block text-xs font-bold text-espresso mb-1">Nomor WhatsApp (Format 628...)</label>
+                <input
+                  type="text"
+                  id="op-whatsapp"
+                  placeholder="6281234567890"
+                  class="w-full px-3.5 py-2 rounded-xl bg-alabaster border border-linewarm text-sm text-espresso tabular-nums focus:outline-none focus:ring-2 focus:ring-chili/25"
+                />
+              </div>
+
+              <div>
+                <label for="op-instagram" class="block text-xs font-bold text-espresso mb-1">Akun Instagram</label>
+                <input
+                  type="text"
+                  id="op-instagram"
+                  placeholder="@pecellelecahjowo"
+                  class="w-full px-3.5 py-2 rounded-xl bg-alabaster border border-linewarm text-sm text-espresso focus:outline-none focus:ring-2 focus:ring-chili/25"
+                />
+              </div>
+
+              <div class="sm:col-span-2">
+                <label for="op-address" class="block text-xs font-bold text-espresso mb-1">Alamat Outlet</label>
+                <input
+                  type="text"
+                  id="op-address"
+                  class="w-full px-3.5 py-2 rounded-xl bg-alabaster border border-linewarm text-sm text-espresso focus:outline-none focus:ring-2 focus:ring-chili/25"
+                />
+              </div>
+
+              <div class="sm:col-span-2">
+                <label for="op-hours" class="block text-xs font-bold text-espresso mb-1">Jam Operasional</label>
+                <textarea
+                  id="op-hours"
+                  rows="2"
+                  class="w-full px-3.5 py-2 rounded-xl bg-alabaster border border-linewarm text-sm text-espresso focus:outline-none focus:ring-2 focus:ring-chili/25 resize-none"
+                ></textarea>
+              </div>
+            </div>
+
+            <!-- Promo Banner Controls -->
+            <div class="p-4 rounded-2xl bg-alabaster border border-linewarm space-y-3">
+              <div class="flex items-center justify-between gap-2">
+                <label for="op-promo-text" class="text-xs font-extrabold text-espresso">Banner Promo / Pengumuman</label>
+                <label class="inline-flex items-center gap-2 text-xs font-bold text-espresso cursor-pointer select-none">
+                  <input
+                    type="checkbox"
+                    id="op-promo-active"
+                    class="w-4 h-4 accent-chili rounded cursor-pointer"
+                  />
+                  <span>Tampilkan Banner</span>
+                </label>
+              </div>
+              <input
+                type="text"
+                id="op-promo-text"
+                placeholder="Contoh: Gratis Es Teh Manis untuk setiap pembelian Paket Lele Kremes hari ini!"
+                class="w-full px-3.5 py-2 rounded-xl bg-surface border border-linewarm text-sm text-espresso focus:outline-none focus:ring-2 focus:ring-chili/25"
+              />
+            </div>
+
+            <!-- Hero Signature Dish Customization -->
+            <div class="p-4 rounded-2xl bg-alabaster border border-linewarm space-y-4">
+              <div>
+                <h4 class="text-sm font-extrabold text-espresso">Kartu Signature Dish (Hero)</h4>
+                <p class="text-xs text-espressoMuted">Sesuaikan badge, judul, keterangan, harga tampil, dan gambar utama di bagian atas halaman.</p>
+              </div>
+
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                <div>
+                  <label for="op-hero-badge" class="block text-xs font-bold text-espresso mb-1">Badge Hero</label>
+                  <input
+                    type="text"
+                    id="op-hero-badge"
+                    class="w-full px-3 py-2 rounded-xl bg-surface border border-linewarm text-xs text-espresso"
+                  />
+                </div>
+                <div>
+                  <label for="op-hero-title" class="block text-xs font-bold text-espresso mb-1">Judul Menu Hero</label>
+                  <input
+                    type="text"
+                    id="op-hero-title"
+                    class="w-full px-3 py-2 rounded-xl bg-surface border border-linewarm text-xs text-espresso"
+                  />
+                </div>
+                <div>
+                  <label for="op-hero-subtitle" class="block text-xs font-bold text-espresso mb-1">Subtitle / Keterangan Singkat</label>
+                  <input
+                    type="text"
+                    id="op-hero-subtitle"
+                    class="w-full px-3 py-2 rounded-xl bg-surface border border-linewarm text-xs text-espresso"
+                  />
+                </div>
+                <div>
+                  <label for="op-hero-price" class="block text-xs font-bold text-espresso mb-1">Harga Tampil Hero (Rp)</label>
+                  <input
+                    type="number"
+                    id="op-hero-price"
+                    min="0"
+                    step="500"
+                    class="w-full px-3 py-2 rounded-xl bg-surface border border-linewarm text-xs text-espresso tabular-nums"
+                  />
+                </div>
+              </div>
+
+              <!-- Image Editor Mount for Hero -->
+              <div id="op-hero-image-editor-mount"></div>
+            </div>
+
+            <div class="flex justify-end">
+              <button
+                type="submit"
+                class="px-5 py-2.5 rounded-xl bg-chili hover:bg-chiliHover text-surface text-xs sm:text-sm font-bold shadow-card transition cursor-pointer"
+              >
+                Simpan Pengaturan Toko
+              </button>
+            </div>
+          </form>
+        </section>
+
+        <!-- ----------------------------------------------------------------- -->
+        <!-- TAB 2: KELOLA MENU & HARGA + GAMBAR                               -->
+        <!-- ----------------------------------------------------------------- -->
+        <section id="op-tab-menu" class="hidden space-y-5">
+          <!-- Add / Edit Menu Form -->
+          <form onsubmit="handleSaveMenuForm(event)" class="bg-surface rounded-3xl border border-linewarm p-5 shadow-card space-y-4">
+            <div class="flex items-center justify-between gap-2 pb-3 border-b border-linewarm">
+              <div>
+                <h3 id="op-menu-form-heading" class="text-base font-extrabold text-espresso">Tambah Item Menu Baru</h3>
+                <p class="text-xs text-espressoMuted">Isi detail menu, harga, status stok, dan atur gambarnya.</p>
+              </div>
+              <button
+                type="button"
+                id="op-menu-cancel-btn"
+                onclick="resetMenuForm()"
+                class="hidden px-3 py-1.5 rounded-xl bg-alabaster hover:bg-stonewarm border border-linewarm text-xs font-bold text-espressoMuted cursor-pointer"
+              >
+                Batal Edit
+              </button>
+            </div>
+
+            <input type="hidden" id="op-menu-edit-id" value="" />
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3.5">
+              <div class="sm:col-span-2">
+                <label for="op-menu-name" class="block text-xs font-bold text-espresso mb-1">Nama Menu <span class="text-chili">*</span></label>
+                <input
+                  type="text"
+                  id="op-menu-name"
+                  required
+                  placeholder="Contoh: Paket Lele Kremes Sambal Ijo"
+                  class="w-full px-3.5 py-2 rounded-xl bg-alabaster border border-linewarm text-sm text-espresso focus:outline-none focus:ring-2 focus:ring-chili/25"
+                />
+              </div>
+
+              <div>
+                <label for="op-menu-category" class="block text-xs font-bold text-espresso mb-1">Kategori</label>
+                <select
+                  id="op-menu-category"
+                  class="w-full px-3 py-2 rounded-xl bg-alabaster border border-linewarm text-sm text-espresso focus:outline-none focus:ring-2 focus:ring-chili/25"
+                >
+                  <option value="Paket Lele & Kremes">Paket Lele &amp; Kremes</option>
+                  <option value="Lauk & Tambahan">Lauk &amp; Tambahan</option>
+                  <option value="Sambal Nusantara">Sambal Nusantara</option>
+                  <option value="Minuman Segar">Minuman Segar</option>
+                </select>
+              </div>
+
+              <div>
+                <label for="op-menu-price" class="block text-xs font-bold text-espresso mb-1">Harga (Rp) <span class="text-chili">*</span></label>
+                <input
+                  type="number"
+                  id="op-menu-price"
+                  required
+                  min="500"
+                  step="500"
+                  placeholder="22000"
+                  class="w-full px-3.5 py-2 rounded-xl bg-alabaster border border-linewarm text-sm text-espresso tabular-nums focus:outline-none focus:ring-2 focus:ring-chili/25"
+                />
+              </div>
+
+              <div>
+                <label for="op-menu-tag" class="block text-xs font-bold text-espresso mb-1">Tag Rasa / Label</label>
+                <input
+                  type="text"
+                  id="op-menu-tag"
+                  placeholder="Contoh: Pedas Gurih, Best Seller"
+                  class="w-full px-3 py-2 rounded-xl bg-alabaster border border-linewarm text-sm text-espresso focus:outline-none focus:ring-2 focus:ring-chili/25"
+                />
+              </div>
+
+              <div class="sm:col-span-2">
+                <label for="op-menu-desc" class="block text-xs font-bold text-espresso mb-1">Deskripsi Singkat</label>
+                <input
+                  type="text"
+                  id="op-menu-desc"
+                  placeholder="Lele goreng kremes hangat dengan lalapan dan sambal pilihan."
+                  class="w-full px-3.5 py-2 rounded-xl bg-alabaster border border-linewarm text-sm text-espresso focus:outline-none focus:ring-2 focus:ring-chili/25"
+                />
+              </div>
+
+              <div class="flex items-end pb-1">
+                <label class="inline-flex items-center gap-2 px-3 py-2 rounded-xl bg-alabaster border border-linewarm w-full cursor-pointer select-none">
+                  <input
+                    type="checkbox"
+                    id="op-menu-available"
+                    checked
+                    class="w-4 h-4 accent-chili rounded cursor-pointer"
+                  />
+                  <span class="text-xs font-bold text-espresso">Stok Tersedia</span>
+                </label>
+              </div>
+            </div>
+
+            <!-- Image Editor Mount for Menu Item -->
+            <div id="op-menu-image-editor-mount"></div>
+
+            <div class="flex justify-end pt-1">
+              <button
+                type="submit"
+                id="op-menu-submit-btn"
+                class="px-5 py-2.5 rounded-xl bg-chili hover:bg-chiliHover text-surface text-xs sm:text-sm font-bold shadow-card transition cursor-pointer"
+              >
+                Simpan Menu
+              </button>
+            </div>
+          </form>
+
+          <!-- Operator Menu List -->
+          <div class="bg-surface rounded-3xl border border-linewarm p-5 shadow-card space-y-3">
+            <div class="flex items-center justify-between gap-2 pb-2 border-b border-linewarm">
+              <div>
+                <h3 class="text-base font-extrabold text-espresso">Daftar Menu Aktif (<span id="op-menu-count" class="tabular-nums">0</span>)</h3>
+                <p class="text-xs text-espressoMuted">Ubah ketersediaan stok, edit item/gambar, atau hapus menu.</p>
+              </div>
+            </div>
+
+            <div id="op-menu-list" class="divide-y divide-linewarm">
+              <!-- Populated via JS -->
+            </div>
+          </div>
+        </section>
+
+        <!-- ----------------------------------------------------------------- -->
+        <!-- TAB 3: DATA & CADANGAN (PIN, EXPORT, IMPORT, RESET)               -->
+        <!-- ----------------------------------------------------------------- -->
+        <section id="op-tab-data" class="hidden space-y-5">
+          <!-- PIN Security Card -->
+          <div class="bg-surface rounded-3xl border border-linewarm p-5 shadow-card space-y-3">
+            <h3 class="text-base font-extrabold text-espresso">PIN Keamanan Operator</h3>
+            <p class="text-xs text-espressoMuted">
+              Ubah PIN untuk mengunci akses Mode Operator. PIN bawaan adalah <code class="font-mono font-bold text-espresso">1234</code>.
+            </p>
+            <form onsubmit="handleChangePin(event)" class="flex flex-col sm:flex-row gap-2.5 pt-1">
+              <input
+                type="text"
+                id="op-new-pin-input"
+                maxlength="12"
+                placeholder="PIN baru (min. 4 karakter)"
+                class="flex-1 px-3.5 py-2 rounded-xl bg-alabaster border border-linewarm text-sm text-espresso font-mono focus:outline-none focus:ring-2 focus:ring-chili/25"
+              />
+              <button
+                type="submit"
+                class="px-4 py-2 rounded-xl bg-espresso hover:bg-espressoMuted text-surface text-xs font-bold transition cursor-pointer"
+              >
+                Simpan PIN Baru
+              </button>
+            </form>
+          </div>
+
+          <!-- Export / Import / Reset Card -->
+          <div class="bg-surface rounded-3xl border border-linewarm p-5 shadow-card space-y-4">
+            <div>
+              <h3 class="text-base font-extrabold text-espresso">Ekspor, Impor &amp; Reset Data Toko</h3>
+              <p class="text-xs text-espressoMuted">
+                Simpan cadangan JSON atau kembalikan katalog ke setelan awal Pecel Lele Kremes Cah Jowo.
+              </p>
+            </div>
+
+            <div class="flex flex-wrap gap-2.5">
+              <button
+                type="button"
+                onclick="exportStoreJson()"
+                class="px-4 py-2.5 rounded-xl bg-chili hover:bg-chiliHover text-surface text-xs font-bold transition cursor-pointer"
+              >
+                Ekspor JSON
+              </button>
+
+              <label class="px-4 py-2.5 rounded-xl bg-alabaster hover:bg-stonewarm border border-linewarm text-espresso text-xs font-bold transition cursor-pointer">
+                <span>Impor JSON</span>
+                <input
+                  type="file"
+                  accept="application/json,.json"
+                  onchange="importStoreJson(event)"
+                  class="hidden"
+                />
+              </label>
+
+              <button
+                type="button"
+                onclick="resetAllStoreData()"
+                class="px-4 py-2.5 rounded-xl bg-amberSoft hover:bg-chili/15 text-chili border border-chili/25 text-xs font-bold transition cursor-pointer"
+              >
+                Reset ke Bawaan
+              </button>
+            </div>
+
+            <div>
+              <label for="op-json-preview" class="block text-xs font-bold text-espresso mb-1">Salinan JSON Data Toko</label>
+              <textarea
+                id="op-json-preview"
+                rows="6"
+                readonly
+                class="w-full p-3 rounded-2xl bg-alabaster border border-linewarm text-[11px] font-mono text-espressoMuted resize-none"
+              ></textarea>
+            </div>
+          </div>
+        </section>
+      </div>
+    </aside>
+  </div>
+
+  <!-- ===================================================================== -->
+  <!-- TOAST NOTIFICATION                                                    -->
+  <!-- ===================================================================== -->
+  <div id="toast-banner" class="hidden fixed bottom-5 left-1/2 -translate-x-1/2 z-[60] max-w-sm w-[90%] px-4 py-3 rounded-2xl bg-espresso text-surface text-xs sm:text-sm font-bold shadow-floating flex items-center justify-between gap-3">
+    <span id="toast-message">Perubahan tersimpan</span>
+    <span class="w-2 h-2 rounded-full bg-amberFlame shrink-0"></span>
+  </div>
+
+  <!-- ===================================================================== -->
+  <!-- APPLICATION JAVASCRIPT                                                -->
+  <!-- ===================================================================== -->
+  <script>
+    // =======================================================================
+    // 1. NAMESPACED STORAGE KEYS & DEFAULT DATA
+    // =======================================================================
+    const NS = 'cahjowo_nusantara_v1';
+    const STORAGE = {
+      STORE: `${NS}_store`,
+      MENU: `${NS}_menu`,
+      CART: `${NS}_cart`,
+      PIN: `${NS}_pin`,
+      UNLOCKED: `${NS}_unlocked`
+    };
+
+    const CATEGORIES = [
+      'Semua',
+      'Paket Lele & Kremes',
+      'Lauk & Tambahan',
+      'Sambal Nusantara',
+      'Minuman Segar'
+    ];
+
+    /**
+     * Generates crisp culinary SVG data URLs so default items and presets
+     * always render reliably offline/online with zero broken links.
+     */
+    function makeCulinarySvgDataUrl({ title, subtitle, bgStart, bgEnd, accent }) {
+      const safeTitle = String(title || 'Cah Jowo').replace(/[<>&"]/g, '');
+      const safeSub = String(subtitle || 'Pecel Lele Nusantara').replace(/[<>&"]/g, '');
+      const svg = `
+        <svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+          <defs>
+            <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="${bgStart}" />
+              <stop offset="100%" stop-color="${bgEnd}" />
+            </linearGradient>
+          </defs>
+          <rect width="800" height="600" rx="28" fill="url(#g)" />
+          <circle cx="400" cy="265" r="175" fill="rgba(255,255,255,0.08)" stroke="${accent}" stroke-width="3" stroke-dasharray="10 8" />
+          <ellipse cx="400" cy="272" rx="145" ry="72" fill="rgba(255,255,255,0.14)" stroke="rgba(255,255,255,0.45)" stroke-width="3" />
+          <path d="M275 274 Q335 232 400 274 T525 274" fill="none" stroke="${accent}" stroke-width="7" stroke-linecap="round" />
+          <circle cx="315" cy="252" r="9" fill="${accent}" />
+          <circle cx="485" cy="292" r="9" fill="#FFFFFF" fill-opacity="0.8" />
+          <text x="400" y="476" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="32" font-weight="800" fill="#FFFFFF">${safeTitle}</text>
+          <text x="400" y="514" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="rgba(255,255,255,0.82)">${safeSub}</text>
+        </svg>
+      `.trim();
+      return 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svg);
+    }
+
+    const IMAGE_PRESETS = [
+      {
+        id: 'preset-lele-kremes',
+        label: 'Lele Kremes Cah Jowo',
+        src: makeCulinarySvgDataUrl({
+          title: 'Lele Kremes Cah Jowo',
+          subtitle: 'Kremes Berlapis & Lalapan Segar',
+          bgStart: '#292018',
+          bgEnd: '#C2410C',
+          accent: '#FDBA74'
+        })
+      },
+      {
+        id: 'preset-paket-keluarga',
+        label: 'Paket Santap Nusantara',
+        src: makeCulinarySvgDataUrl({
+          title: 'Paket Santap Nusantara',
+          subtitle: 'Nasi Pulen, Lauk & Aneka Sambal',
+          bgStart: '#1C1917',
+          bgEnd: '#9A3412',
+          accent: '#FDE68A'
+        })
+      },
+      {
+        id: 'preset-lauk-tempe',
+        label: 'Tahu Tempe & Lauk Krispi',
+        src: makeCulinarySvgDataUrl({
+          title: 'Tahu Tempe & Lauk Krispi',
+          subtitle: 'Gurih Rempah Goreng Hangat',
+          bgStart: '#2E2318',
+          bgEnd: '#B45309',
+          accent: '#FEF08A'
+        })
+      },
+      {
+        id: 'preset-sambal-nusantara',
+        label: 'Aneka Sambal Nusantara',
+        src: makeCulinarySvgDataUrl({
+          title: 'Sambal Terasi, Ijo & Matah',
+          subtitle: 'Pedas Segar Racikan Harian',
+          bgStart: '#2A1410',
+          bgEnd: '#EA580C',
+          accent: '#86EFAC'
+        })
+      },
+      {
+        id: 'preset-minuman-segar',
+        label: 'Es Teh Kampul & Segar',
+        src: makeCulinarySvgDataUrl({
+          title: 'Es Teh Kampul & Minuman Segar',
+          subtitle: 'Pelepas Dahaga Khas Jawa',
+          bgStart: '#142920',
+          bgEnd: '#2F5D46',
+          accent: '#A7F3D0'
+        })
+      }
+    ];
+
+    function createDefaultStore() {
+      return {
+        brandName: 'Pecel Lele Kremes Cah Jowo',
+        tagline: 'Pecel Lele Nusantara',
+        isOpen: true,
+        whatsapp: '6281234567890',
+        instagram: '@pecellelecahjowo',
+        address: 'Jl. Melati Nusantara No. 28, Tangerang Selatan',
+        hours: 'Setiap Hari: 11.00 – 23.00 WIB\nDigoreng dadakan setiap pesanan masuk',
+        promoText: 'Gratis Es Teh Manis untuk setiap pembelian Paket Lele Kremes hari ini!',
+        promoActive: true,
+        hero: {
+          badge: 'Andalan Cah Jowo',
+          title: 'Paket Lele Kremes Cah Jowo',
+          subtitle: 'Lele Goreng Kremes • Sambal Terasi & Ijo',
+          price: 22000,
+          menuId: 'lele-kremes-paket',
+          image: IMAGE_PRESETS[0].src
+        }
+      };
+    }
+
+    function createDefaultMenu() {
+      return [
+        {
+          id: 'lele-kremes-paket',
+          name: 'Paket Lele Kremes Cah Jowo',
+          category: 'Paket Lele & Kremes',
+          price: 22000,
+          tag: 'Best Seller',
+          available: true,
+          description: 'Lele goreng bumbu rempah dengan kremes renyah berlapis, nasi hangat, lalapan segar, dan sambal terasi khas Jawa.',
+          image: IMAGE_PRESETS[0].src
+        },
+        {
+          id: 'lele-kremes-sambal-ijo',
+          name: 'Lele Kremes Sambal Ijo Nusantara',
+          category: 'Paket Lele & Kremes',
+          price: 24000,
+          tag: 'Pedas Segar',
+          available: true,
+          description: 'Lele kremes gurih berpadu sambal cabai hijau tumbuk kasar beraroma jeruk nipis, nasi putih hangat, dan lalapan.',
+          image: IMAGE_PRESETS[1].src
+        },
+        {
+          id: 'lele-kremes-jumbo-matah',
+          name: 'Lele Jumbo Kremes Sambal Matah',
+          category: 'Paket Lele & Kremes',
+          price: 29000,
+          tag: 'Porsi Puas',
+          available: true,
+          description: 'Potongan lele ukuran lebih besar dengan taburan kremes melimpah serta sambal matah serai & daun jeruk segar.',
+          image: IMAGE_PRESETS[0].src
+        },
+        {
+          id: 'tahu-tempe-kremes',
+          name: 'Tahu & Tempe Goreng Kremes',
+          category: 'Lauk & Tambahan',
+          price: 11000,
+          tag: 'Gurih Renyah',
+          available: true,
+          description: 'Tahu dan tempe pilihan digoreng hangat dengan taburan kremes garing sebagai pendamping lauk utama.',
+          image: IMAGE_PRESETS[2].src
+        },
+        {
+          id: 'kol-terong-krispi',
+          name: 'Kol & Terong Goreng Krispi',
+          category: 'Lauk & Tambahan',
+          price: 9000,
+          tag: 'Sayur Krispi',
+          available: true,
+          description: 'Irisan kol dan terong segar digoreng kilat hingga renyah ringan, nikmat dicocol aneka sambal.',
+          image: IMAGE_PRESETS[2].src
+        },
+        {
+          id: 'sambal-terasi-jowo',
+          name: 'Sambal Terasi Cah Jowo',
+          category: 'Sambal Nusantara',
+          price: 5000,
+          tag: 'Manis Pedas',
+          available: true,
+          description: 'Sambal terasi bakar khas Jawa dengan sentuhan gula merah dan tomat segar yang seimbang rasanya.',
+          image: IMAGE_PRESETS[3].src
+        },
+        {
+          id: 'sambal-dabu-manado',
+          name: 'Sambal Dabu-Dabu Nusantara',
+          category: 'Sambal Nusantara',
+          price: 6000,
+          tag: 'Segar Asam Pedas',
+          available: true,
+          description: 'Potongan tomat merah, bawang merah, cabai rawit, dan kemangi segar dengan perasan jeruk segar.',
+          image: IMAGE_PRESETS[3].src
+        },
+        {
+          id: 'es-teh-kampul',
+          name: 'Es Teh Kampul Jeruk Nipis',
+          category: 'Minuman Segar',
+          price: 6000,
+          tag: 'Segar',
+          available: true,
+          description: 'Teh manis hangat atau dingin khas Jawa dengan perasan jeruk nipis segar penyeimbang rasa pedas.',
+          image: IMAGE_PRESETS[4].src
+        },
+        {
+          id: 'es-jeruk-peras',
+          name: 'Es Jeruk Peras Murni',
+          category: 'Minuman Segar',
+          price: 8000,
+          tag: 'Vitamin C',
+          available: true,
+          description: 'Perasan jeruk segar dingin yang menyegarkan tenggorokan setelah menyantap hidangan kremes.',
+          image: IMAGE_PRESETS[4].src
+        }
+      ];
+    }
+
+    // =======================================================================
+    // 2. SAFE LOCALSTORAGE HELPERS (WITH QUOTA HANDLING)
+    // =======================================================================
+    function safeReadJson(key, fallback) {
+      try {
+        const raw = localStorage.getItem(key);
+        if (!raw) return fallback;
+        return JSON.parse(raw);
+      } catch (err) {
+        return fallback;
+      }
+    }
+
+    function safeWriteJson(key, value) {
+      try {
+        localStorage.setItem(key, JSON.stringify(value));
+        return true;
+      } catch (err) {
+        if (err && (err.name === 'QuotaExceededError' || err.code === 22 || err.code === 1014)) {
+          showToast('Penyimpanan browser penuh (QuotaExceededError). Perkecil ukuran gambar atau hapus item lama.');
+        } else {
+          showToast('Gagal menyimpan data ke penyimpanan lokal browser.');
+        }
+        return false;
+      }
+    }
+
+    function getStoredPin() {
+      try {
+        return localStorage.getItem(STORAGE.PIN) || '1234';
+      } catch (err) {
+        return '1234';
+      }
+    }
+
+    function setStoredPin(newPin) {
+      try {
+        localStorage.setItem(STORAGE.PIN, String(newPin));
+        return true;
+      } catch (err) {
+        showToast('Gagal menyimpan PIN baru ke browser.');
+        return false;
+      }
+    }
+
+    function isOperatorSessionUnlocked() {
+      try {
+        return localStorage.getItem(STORAGE.UNLOCKED) === '1';
+      } catch (err) {
+        return false;
+      }
+    }
+
+    function setOperatorSessionUnlocked(unlocked) {
+      try {
+        localStorage.setItem(STORAGE.UNLOCKED, unlocked ? '1' : '0');
+      } catch (err) {
+        // Ignore storage restriction inside sandboxed embeds
+      }
+    }
+
+    // =======================================================================
+    // 3. APPLICATION STATE
+    // =======================================================================
+    const defaultStore = createDefaultStore();
+    const loadedStore = safeReadJson(STORAGE.STORE, null);
+    const storeState = {
+      ...defaultStore,
+      ...(loadedStore && typeof loadedStore === 'object' ? loadedStore : {}),
+      hero: {
+        ...defaultStore.hero,
+        ...(loadedStore && loadedStore.hero && typeof loadedStore.hero === 'object' ? loadedStore.hero : {})
+      }
+    };
+
+    const loadedMenu = safeReadJson(STORAGE.MENU, null);
+    let menuState = Array.isArray(loadedMenu) && loadedMenu.length > 0 ? loadedMenu : createDefaultMenu();
+
+    const loadedCart = safeReadJson(STORAGE.CART, {});
+    let cartState = loadedCart && typeof loadedCart === 'object' ? loadedCart : {};
+
+    let activeCategory = 'Semua';
+    let searchQuery = '';
+    let orderType = 'Dine-in / Ambil di Outlet';
+    let operatorUnlocked = isOperatorSessionUnlocked();
+    let activeOperatorTab = 'store';
+
+    // Draft image editing state for 'hero' and 'menu'
+    const imageDrafts = {
+      hero: {
+        baseSrc: storeState.hero.image || IMAGE_PRESETS[0].src,
+        zoom: 1,
+        panX: 0,
+        panY: 0,
+        brightness: 100,
+        contrast: 100
+      },
+      menu: {
+        baseSrc: IMAGE_PRESETS[0].src,
+        zoom: 1,
+        panX: 0,
+        panY: 0,
+        brightness: 100,
+        contrast: 100
+      }
+    };
+
+    // =======================================================================
+    // 4. FORMATTING & UTILITY HELPERS
+    // =======================================================================
+    function formatRupiah(amount) {
+      const num = Number(amount) || 0;
+      return 'Rp ' + num.toLocaleString('id-ID');
+    }
+
+    function escapeHtml(str) {
+      return String(str ?? '')
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+    }
+
+    let toastTimeout = null;
+    function showToast(message) {
+      const banner = document.getElementById('toast-banner');
+      const msgEl = document.getElementById('toast-message');
+      if (!banner || !msgEl) return;
+      msgEl.textContent = message;
+      banner.classList.remove('hidden');
+      if (toastTimeout) clearTimeout(toastTimeout);
+      toastTimeout = setTimeout(() => {
+        banner.classList.add('hidden');
+      }, 3200);
+    }
+
+    function getFallbackImageForCategory(category) {
+      if (category === 'Sambal Nusantara') return IMAGE_PRESETS[3].src;
+      if (category === 'Minuman Segar') return IMAGE_PRESETS[4].src;
+      if (category === 'Lauk & Tambahan') return IMAGE_PRESETS[2].src;
+      return IMAGE_PRESETS[0].src;
+    }
+
+    function attachSafeImageFallback(imgEl, fallbackSrc) {
+      if (!imgEl) return;
+      imgEl.onerror = function () {
+        if (this.dataset.fallbackApplied === '1') return;
+        this.dataset.fallbackApplied = '1';
+        this.src = fallbackSrc || IMAGE_PRESETS[0].src;
+      };
+    }
+
+    // =======================================================================
+    // 5. STOREFRONT RENDERING (NAV, BANNER, HERO, CATALOG, CART, FOOTER)
+    // =======================================================================
+    function renderAllStorefront() {
+      renderHeaderAndBanner();
+      renderHeroCard();
+      renderCategoryPills();
+      renderMenuGrid();
+      renderFooter();
+      renderCartDrawer();
+      updateOperatorStripVisibility();
+      notifyEmbedHeight();
+    }
+
+    function renderHeaderAndBanner() {
+      document.getElementById('nav-brand-title').textContent = storeState.brandName || 'Pecel Lele Kremes Cah Jowo';
+      document.getElementById('nav-brand-tagline').textContent = storeState.tagline || 'Pecel Lele Nusantara';
+
+      const statusBadge = document.getElementById('nav-store-status-badge');
+      const statusDot = document.getElementById('nav-store-status-dot');
+      const statusText = document.getElementById('nav-store-status-text');
+
+      if (storeState.isOpen) {
+        statusBadge.className = 'inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full text-[11px] font-bold bg-sageSoft text-sageLeaf border border-sageLeaf/20';
+        statusDot.className = 'w-1.5 h-1.5 rounded-full bg-sageLeaf';
+        statusText.textContent = 'Buka';
+      } else {
+        statusBadge.className = 'inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full text-[11px] font-bold bg-amberSoft text-chili border border-chili/25';
+        statusDot.className = 'w-1.5 h-1.5 rounded-full bg-chili';
+        statusText.textContent = 'Tutup Sementara';
+      }
+
+      const promoWrapper = document.getElementById('promo-banner-wrapper');
+      const promoTextEl = document.getElementById('promo-banner-text');
+      const cleanPromo = (storeState.promoText || '').trim();
+      if (storeState.promoActive && cleanPromo) {
+        promoTextEl.textContent = cleanPromo;
+        promoWrapper.classList.remove('hidden');
+      } else {
+        promoWrapper.classList.add('hidden');
+      }
+
+      updateCartBadge();
+    }
+
+    function renderHeroCard() {
+      const h = storeState.hero || defaultStore.hero;
+      document.getElementById('hero-dish-badge').textContent = h.badge || 'Andalan Cah Jowo';
+      document.getElementById('hero-dish-title').textContent = h.title || 'Paket Lele Kremes Cah Jowo';
+      document.getElementById('hero-dish-subtitle').textContent = h.subtitle || 'Lele Goreng Kremes • Sambal Terasi & Ijo';
+      document.getElementById('hero-dish-price').textContent = formatRupiah(h.price);
+
+      const heroImg = document.getElementById('hero-dish-img');
+      heroImg.alt = h.title || 'Signature Dish Pecel Lele Kremes Cah Jowo';
+      heroImg.src = h.image || IMAGE_PRESETS[0].src;
+      attachSafeImageFallback(heroImg, IMAGE_PRESETS[0].src);
+
+      const quickEditBtn = document.getElementById('hero-edit-shortcut');
+      if (operatorUnlocked) {
+        quickEditBtn.classList.remove('hidden');
+      } else {
+        quickEditBtn.classList.add('hidden');
+      }
+    }
+
+    function orderHeroSignature() {
+      const h = storeState.hero || defaultStore.hero;
+      const linkedMenu = menuState.find((m) => m.id === h.menuId);
+      if (linkedMenu) {
+        if (!linkedMenu.available) {
+          showToast(`Maaf, "${linkedMenu.name}" sedang habis.`);
+          return;
+        }
+        addToCart(linkedMenu.id);
+        return;
+      }
+
+      const firstAvailable = menuState.find((m) => m.available);
+      if (firstAvailable) {
+        addToCart(firstAvailable.id);
+      } else {
+        showToast('Seluruh menu sedang habis untuk saat ini.');
+      }
+    }
+
+    function renderCategoryPills() {
+      const container = document.getElementById('category-pills-container');
+      container.innerHTML = CATEGORIES.map((cat) => {
+        const isActive = activeCategory === cat;
+        return `
+          <button
+            type="button"
+            onclick="selectCategory('${escapeHtml(cat)}')"
+            class="px-4 py-2 rounded-full text-xs sm:text-sm font-bold whitespace-nowrap border transition cursor-pointer ${
+              isActive
+                ? 'bg-chili text-surface border-chili shadow-card'
+                : 'bg-surface text-espressoMuted border-linewarm hover:border-chili/40 hover:text-espresso'
+            }"
+          >
+            ${escapeHtml(cat)}
+          </button>
+        `;
+      }).join('');
+    }
+
+    function selectCategory(category) {
+      activeCategory = category;
+      renderCategoryPills();
+      renderMenuGrid();
+      notifyEmbedHeight();
+    }
+
+    function quickFilterSambal() {
+      activeCategory = 'Sambal Nusantara';
+      renderCategoryPills();
+      renderMenuGrid();
+      notifyEmbedHeight();
+      const menuEl = document.getElementById('menu');
+      if (menuEl) menuEl.scrollIntoView({ behavior: 'smooth' });
+    }
+
+    function handleSearchInput(val) {
+      searchQuery = String(val || '').trim().toLowerCase();
+      renderMenuGrid();
+      notifyEmbedHeight();
+    }
+
+    function resetMenuFilters() {
+      activeCategory = 'Semua';
+      searchQuery = '';
+      const searchInput = document.getElementById('menu-search-input');
+      if (searchInput) searchInput.value = '';
+      renderCategoryPills();
+      renderMenuGrid();
+      notifyEmbedHeight();
+    }
+
+    function quickFilterSambal() {
+      activeCategory = 'Sambal Nusantara';
+      renderCategoryPills();
+      renderMenuGrid();
+      const menuEl = document.getElementById('menu');
+      if (menuEl) menuEl.scrollIntoView({ behavior: 'smooth' });
+    }
+
+    function handleSearchInput(val) {
+      searchQuery = String(val || '').trim().toLowerCase();
+      renderMenuGrid();
+    }
+
+    function resetMenuFilters() {
+      activeCategory = 'Semua';
+      searchQuery = '';
+      const searchInput = document.getElementById('menu-search-input');
+      if (searchInput) searchInput.value = '';
+      renderCategoryPills();
+      renderMenuGrid();
+    }
+
+    function renderMenuGrid() {
+      const grid = document.getElementById('menu-grid');
+      const emptyState = document.getElementById('menu-empty-state');
+
+      const filtered = menuState.filter((item) => {
+        const matchCat = activeCategory === 'Semua' || item.category === activeCategory;
+        if (!matchCat) return false;
+        if (!searchQuery) return true;
+        const haystack = `${item.name} ${item.category} ${item.tag || ''} ${item.description || ''}`.toLowerCase();
+        return haystack.includes(searchQuery);
+      });
+
+      if (filtered.length === 0) {
+        grid.innerHTML = '';
+        emptyState.classList.remove('hidden');
+        return;
+      }
+
+      emptyState.classList.add('hidden');
+      grid.innerHTML = filtered.map((item) => {
+        const isAvail = Boolean(item.available);
+        const fallbackSrc = getFallbackImageForCategory(item.category);
+        const imgSrc = item.image || fallbackSrc;
+
+        return `
+          <article class="bg-surface rounded-3xl border border-linewarm shadow-card hover:shadow-editorial transition-shadow overflow-hidden flex flex-col justify-between ${isAvail ? '' : 'opacity-80'}">
+            <div>
+              <div class="relative aspect-[4/3] w-full bg-stonewarm overflow-hidden border-b border-linewarm">
+                <img
+                  src="${escapeHtml(imgSrc)}"
+                  alt="${escapeHtml(item.name)}"
+                  loading="lazy"
+                  onerror="if(this.dataset.fb!=='1'){this.dataset.fb='1';this.src='${escapeHtml(fallbackSrc)}';}"
+                  class="w-full h-full object-cover"
+                />
+                <div class="absolute top-3 left-3 flex items-center gap-1.5 flex-wrap">
+                  <span class="px-2.5 py-1 rounded-full text-[11px] font-bold ${
+                    isAvail
+                      ? 'bg-sageSoft/95 text-sageLeaf border border-sageLeaf/20'
+                      : 'bg-amberSoft/95 text-chili border border-chili/25'
+                  }">
+                    ${isAvail ? 'Tersedia' : 'Habis'}
+                  </span>
+                  ${
+                    item.tag
+                      ? `<span class="px-2.5 py-1 rounded-full text-[11px] font-bold bg-surface/95 text-espresso border border-linewarm">${escapeHtml(item.tag)}</span>`
+                      : ''
+                  }
+                </div>
+                ${
+                  operatorUnlocked
+                    ? `<button
+                        type="button"
+                        onclick="openOperatorEditMenu('${escapeHtml(item.id)}')"
+                        class="absolute top-3 right-3 px-2.5 py-1 rounded-full bg-espresso/85 hover:bg-espresso text-surface text-[11px] font-bold transition cursor-pointer"
+                      >
+                        Edit
+                      </button>`
+                    : ''
+                }
+              </div>
+
+              <div class="p-5">
+                <p class="text-[11px] font-bold uppercase tracking-wider text-chili">${escapeHtml(item.category)}</p>
+                <h3 class="text-base sm:text-lg font-extrabold text-espresso mt-0.5 leading-snug">${escapeHtml(item.name)}</h3>
+                <p class="text-xs sm:text-sm text-espressoMuted mt-1.5 leading-relaxed">${escapeHtml(item.description || '')}</p>
+              </div>
+            </div>
+
+            <div class="px-5 pb-5 pt-2 flex items-center justify-between gap-3 border-t border-linewarm/60">
+              <span class="text-base font-extrabold text-espresso tabular-nums">${formatRupiah(item.price)}</span>
+              ${
+                isAvail
+                  ? `<button
+                      type="button"
+                      onclick="addToCart('${escapeHtml(item.id)}')"
+                      class="px-3.5 py-2 rounded-xl bg-chili hover:bg-chiliHover text-surface text-xs font-bold shadow-card transition cursor-pointer"
+                    >
+                      + Tambah
+                    </button>`
+                  : `<button
+                      type="button"
+                      disabled
+                      class="px-3.5 py-2 rounded-xl bg-stonewarm text-espressoSoft text-xs font-bold border border-linewarm cursor-not-allowed"
+                    >
+                      Habis
+                    </button>`
+              }
+            </div>
+          </article>
+        `;
+      }).join('');
+    }
+
+    function renderFooter() {
+      document.getElementById('footer-brand-title').textContent = storeState.brandName || 'Pecel Lele Kremes Cah Jowo';
+      document.getElementById('footer-brand-tagline').textContent = storeState.tagline || 'Pecel Lele Nusantara';
+      document.getElementById('footer-hours').textContent = storeState.hours || 'Setiap Hari: 11.00 – 23.00 WIB';
+      document.getElementById('footer-address').textContent = storeState.address || 'Jl. Melati Nusantara No. 28, Tangerang Selatan';
+      document.getElementById('footer-whatsapp').textContent = storeState.whatsapp || '6281234567890';
+      document.getElementById('footer-instagram').textContent = storeState.instagram || '@pecellelecahjowo';
+      document.getElementById('footer-year').textContent = String(new Date().getFullYear());
+    }
+
+    // =======================================================================
+    // 6. ORDER CART & CHECKOUT LOGIC
+    // =======================================================================
+    function persistCart() {
+      safeWriteJson(STORAGE.CART, cartState);
+      updateCartBadge();
+    }
+
+    function updateCartBadge() {
+      const totalQty = Object.values(cartState).reduce((sum, q) => sum + (Number(q) || 0), 0);
+      document.getElementById('nav-cart-badge').textContent = String(totalQty);
+    }
+
+    function addToCart(menuId) {
+      const item = menuState.find((m) => m.id === menuId);
+      if (!item) return;
+      if (!item.available) {
+        showToast(`"${item.name}" sedang habis.`);
+        return;
+      }
+      cartState[menuId] = (Number(cartState[menuId]) || 0) + 1;
+      persistCart();
+      renderCartDrawer();
+      showToast(`"${item.name}" ditambahkan ke keranjang`);
+    }
+
+    function updateCartQty(menuId, delta) {
+      const nextQty = (Number(cartState[menuId]) || 0) + delta;
+      if (nextQty <= 0) {
+        delete cartState[menuId];
+      } else {
+        cartState[menuId] = nextQty;
+      }
+      persistCart();
+      renderCartDrawer();
+    }
+
+    function removeCartItem(menuId) {
+      delete cartState[menuId];
+      persistCart();
+      renderCartDrawer();
+    }
+
+    function setOrderType(type) {
+      orderType = type;
+      const dineBtn = document.getElementById('order-type-dinein');
+      const delivBtn = document.getElementById('order-type-delivery');
+      if (type === 'Dine-in / Ambil di Outlet') {
+        dineBtn.className = 'px-3 py-2 rounded-xl text-xs font-bold border transition cursor-pointer bg-chili text-surface border-chili';
+        delivBtn.className = 'px-3 py-2 rounded-xl text-xs font-bold border transition cursor-pointer bg-alabaster text-espresso border-linewarm hover:bg-stonewarm';
+      } else {
+        delivBtn.className = 'px-3 py-2 rounded-xl text-xs font-bold border transition cursor-pointer bg-chili text-surface border-chili';
+        dineBtn.className = 'px-3 py-2 rounded-xl text-xs font-bold border transition cursor-pointer bg-alabaster text-espresso border-linewarm hover:bg-stonewarm';
+      }
+    }
+
+    function openCartDrawer() {
+      renderCartDrawer();
+      document.getElementById('cart-drawer-backdrop').classList.remove('hidden');
+      document.body.classList.add('overflow-hidden');
+    }
+
+    function closeCartDrawer() {
+      document.getElementById('cart-drawer-backdrop').classList.add('hidden');
+      if (document.getElementById('operator-panel-backdrop').classList.contains('hidden')) {
+        document.body.classList.remove('overflow-hidden');
+      }
+    }
+
+    function renderCartDrawer() {
+      const container = document.getElementById('cart-items-container');
+      const checkoutForm = document.getElementById('cart-checkout-form');
+      const footer = document.getElementById('cart-footer');
+
+      const entries = Object.entries(cartState)
+        .map(([id, qty]) => {
+          const menuItem = menuState.find((m) => m.id === id);
+          if (!menuItem || (Number(qty) || 0) <= 0) return null;
+          return { menuItem, qty: Number(qty) };
+        })
+        .filter(Boolean);
+
+      if (entries.length === 0) {
+        container.innerHTML = `
+          <div class="text-center py-12 px-4 rounded-2xl bg-alabaster border border-linewarm">
+            <p class="text-sm font-extrabold text-espresso">Keranjang masih kosong</p>
+            <p class="text-xs text-espressoMuted mt-1">Pilih hidangan favorit dari katalog menu untuk mulai memesan.</p>
+          </div>
+        `;
+        checkoutForm.classList.add('hidden');
+        footer.classList.add('hidden');
+        return;
+      }
+
+      checkoutForm.classList.remove('hidden');
+      footer.classList.remove('hidden');
+
+      let subtotal = 0;
+      container.innerHTML = entries.map(({ menuItem, qty }) => {
+        const lineTotal = menuItem.price * qty;
+        subtotal += lineTotal;
+        return `
+          <div class="flex items-center justify-between gap-3 p-3 rounded-2xl bg-alabaster border border-linewarm">
+            <div class="min-w-0 flex-1">
+              <h4 class="text-xs sm:text-sm font-extrabold text-espresso truncate">${escapeHtml(menuItem.name)}</h4>
+              <p class="text-xs text-espressoMuted tabular-nums">${formatRupiah(menuItem.price)} &times; ${qty} = <strong class="text-espresso">${formatRupiah(lineTotal)}</strong></p>
+            </div>
+            <div class="flex items-center gap-1.5 shrink-0">
+              <button
+                type="button"
+                onclick="updateCartQty('${escapeHtml(menuItem.id)}', -1)"
+                aria-label="Kurangi jumlah"
+                class="w-7 h-7 rounded-lg bg-surface hover:bg-stonewarm border border-linewarm text-xs font-extrabold text-espresso cursor-pointer"
+              >
+                &minus;
+              </button>
+              <span class="w-6 text-center text-xs font-extrabold tabular-nums">${qty}</span>
+              <button
+                type="button"
+                onclick="updateCartQty('${escapeHtml(menuItem.id)}', 1)"
+                aria-label="Tambah jumlah"
+                class="w-7 h-7 rounded-lg bg-surface hover:bg-stonewarm border border-linewarm text-xs font-extrabold text-espresso cursor-pointer"
+              >
+                +
+              </button>
+              <button
+                type="button"
+                onclick="removeCartItem('${escapeHtml(menuItem.id)}')"
+                aria-label="Hapus item"
+                class="ml-1 px-2 h-7 rounded-lg text-[11px] font-bold text-chili hover:bg-amberSoft cursor-pointer"
+              >
+                Hapus
+              </button>
+            </div>
+          </div>
+        `;
+      }).join('');
+
+      document.getElementById('cart-subtotal').textContent = formatRupiah(subtotal);
+      document.getElementById('cart-total').textContent = formatRupiah(subtotal);
+    }
+
+    function generateOrderSummary() {
+      const customerName = (document.getElementById('customer-name-input').value || '').trim();
+      const notes = (document.getElementById('customer-notes-input').value || '').trim();
+
+      if (!customerName) {
+        showToast('Mohon isi nama pemesan terlebih dahulu.');
+        document.getElementById('customer-name-input').focus();
+        return;
+      }
+
+      const entries = Object.entries(cartState)
+        .map(([id, qty]) => {
+          const menuItem = menuState.find((m) => m.id === id);
+          if (!menuItem || (Number(qty) || 0) <= 0) return null;
+          return { menuItem, qty: Number(qty) };
+        })
+        .filter(Boolean);
+
+      if (entries.length === 0) return;
+
+      const subtotal = entries.reduce((sum, e) => sum + e.menuItem.price * e.qty, 0);
+      const itemLines = entries
+        .map((e) => `- ${e.menuItem.name} (${e.qty}x) : ${formatRupiah(e.menuItem.price * e.qty)}`)
+        .join('\n');
+
+      const summaryText = [
+        `Halo ${storeState.brandName} (${storeState.tagline}), saya ingin memesan:`,
+        `Nama: ${customerName}`,
+        `Tipe: ${orderType}`,
+        `---`,
+        itemLines,
+        `---`,
+        `Total Estimasi: ${formatRupiah(subtotal)}`,
+        notes ? `Catatan: ${notes}` : null
+      ].filter(Boolean).join('\n');
+
+      document.getElementById('order-summary-text').textContent = summaryText;
+      document.getElementById('order-summary-box').classList.remove('hidden');
+
+      const cleanWa = String(storeState.whatsapp || '6281234567890').replace(/\D/g, '') || '6281234567890';
+      const waUrl = `https://wa.me/${cleanWa}?text=${encodeURIComponent(summaryText)}`;
+      document.getElementById('order-whatsapp-link').href = waUrl;
+      showToast('Ringkasan pesanan siap dikirim atau disalin.');
+    }
+
+    function copyOrderSummary() {
+      const text = document.getElementById('order-summary-text').textContent || '';
+      if (!text) return;
+      try {
+        if (navigator.clipboard && typeof navigator.clipboard.writeText === 'function') {
+          navigator.clipboard.writeText(text).then(() => {
+            showToast('Ringkasan pesanan disalin ke clipboard');
+          }).catch(() => {
+            copyViaExecCommand(text);
+          });
+          return;
+        }
+        copyViaExecCommand(text);
+      } catch (err) {
+        copyViaExecCommand(text);
+      }
+    }
+
+    function copyViaExecCommand(text) {
+      try {
+        const tempArea = document.createElement('textarea');
+        tempArea.value = text;
+        tempArea.setAttribute('readonly', '');
+        tempArea.style.position = 'fixed';
+        tempArea.style.opacity = '0';
+        document.body.appendChild(tempArea);
+        tempArea.select();
+        document.execCommand('copy');
+        document.body.removeChild(tempArea);
+        showToast('Ringkasan pesanan disalin ke clipboard');
+      } catch (err) {
+        showToast('Salin manual teks ringkasan di atas.');
+      }
+    }
+
+    // =======================================================================
+    // 7. OPERATOR MODE (PIN LOCK, QUICK UNLOCK, PANEL & TABS)
+    // =======================================================================
+    function handleOperatorButtonClick() {
+      if (operatorUnlocked) {
+        openOperatorPanel(activeOperatorTab);
+      } else {
+        openPinModal();
+      }
+    }
+
+    function openPinModal() {
+      document.getElementById('operator-pin-input').value = '';
+      document.getElementById('operator-pin-error').classList.add('hidden');
+      document.getElementById('operator-pin-modal').classList.remove('hidden');
+      setTimeout(() => document.getElementById('operator-pin-input').focus(), 40);
+    }
+
+    function closePinModal() {
+      document.getElementById('operator-pin-modal').classList.add('hidden');
+    }
+
+    function handlePinSubmit(event) {
+      event.preventDefault();
+      const inputPin = (document.getElementById('operator-pin-input').value || '').trim();
+      const savedPin = getStoredPin();
+      if (inputPin === savedPin) {
+        unlockOperatorAndOpen('store');
+      } else {
+        document.getElementById('operator-pin-error').classList.remove('hidden');
+      }
+    }
+
+    function quickUnlockOperator() {
+      unlockOperatorAndOpen('store');
+    }
+
+    function unlockOperatorAndOpen(tabName) {
+      operatorUnlocked = true;
+      setOperatorSessionUnlocked(true);
+      closePinModal();
+      updateOperatorStripVisibility();
+      renderHeroCard();
+      renderMenuGrid();
+      openOperatorPanel(tabName || activeOperatorTab);
+      showToast('Mode Operator aktif');
+    }
+
+    function lockOperatorMode() {
+      operatorUnlocked = false;
+      setOperatorSessionUnlocked(false);
+      closeOperatorPanel();
+      updateOperatorStripVisibility();
+      renderHeroCard();
+      renderMenuGrid();
+      showToast('Mode Operator dikunci');
+    }
+
+    function updateOperatorStripVisibility() {
+      const strip = document.getElementById('operator-active-strip');
+      if (operatorUnlocked) {
+        strip.classList.remove('hidden');
+      } else {
+        strip.classList.add('hidden');
+      }
+    }
+
+    function openOperatorPanel(tabName) {
+      if (!operatorUnlocked) {
+        openPinModal();
+        return;
+      }
+      populateStoreForm();
+      resetMenuForm();
+      renderOperatorMenuList();
+      refreshJsonPreview();
+      switchOperatorTab(tabName || activeOperatorTab);
+      document.getElementById('operator-panel-backdrop').classList.remove('hidden');
+      document.body.classList.add('overflow-hidden');
+    }
+
+    function closeOperatorPanel() {
+      document.getElementById('operator-panel-backdrop').classList.add('hidden');
+      if (document.getElementById('cart-drawer-backdrop').classList.contains('hidden')) {
+        document.body.classList.remove('overflow-hidden');
+      }
+    }
+
+    function handleHeroQuickEdit() {
+      if (!operatorUnlocked) {
+        openPinModal();
+        return;
+      }
+      openOperatorPanel('store');
+    }
+
+    function openOperatorEditMenu(menuId) {
+      if (!operatorUnlocked) {
+        openPinModal();
+        return;
+      }
+      openOperatorPanel('menu');
+      startEditMenuItem(menuId);
+    }
+
+    function switchOperatorTab(tabName) {
+      activeOperatorTab = tabName;
+      const tabs = ['store', 'menu', 'data'];
+      tabs.forEach((t) => {
+        const section = document.getElementById(`op-tab-${t}`);
+        const btn = document.getElementById(`op-tab-btn-${t}`);
+        if (t === tabName) {
+          section.classList.remove('hidden');
+          btn.className = 'px-3.5 py-2 rounded-xl text-xs font-bold transition whitespace-nowrap cursor-pointer bg-chili text-surface';
+        } else {
+          section.classList.add('hidden');
+          btn.className = 'px-3.5 py-2 rounded-xl text-xs font-bold transition whitespace-nowrap cursor-pointer bg-alabaster text-espresso hover:bg-stonewarm';
+        }
+      });
+
+      if (tabName === 'store') {
+        renderImageEditor('hero');
+      } else if (tabName === 'menu') {
+        renderImageEditor('menu');
+        renderOperatorMenuList();
+      } else if (tabName === 'data') {
+        refreshJsonPreview();
+      }
+    }
+
+    // =======================================================================
+    // 8. OPERATOR TAB 1: STORE & HERO SETTINGS
+    // =======================================================================
+    function populateStoreForm() {
+      document.getElementById('op-store-is-open').checked = Boolean(storeState.isOpen);
+      document.getElementById('op-brand-name').value = storeState.brandName || '';
+      document.getElementById('op-brand-tagline').value = storeState.tagline || '';
+      document.getElementById('op-whatsapp').value = storeState.whatsapp || '';
+      document.getElementById('op-instagram').value = storeState.instagram || '';
+      document.getElementById('op-address').value = storeState.address || '';
+      document.getElementById('op-hours').value = storeState.hours || '';
+      document.getElementById('op-promo-text').value = storeState.promoText || '';
+      document.getElementById('op-promo-active').checked = Boolean(storeState.promoActive);
+
+      const h = storeState.hero || defaultStore.hero;
+      document.getElementById('op-hero-badge').value = h.badge || '';
+      document.getElementById('op-hero-title').value = h.title || '';
+      document.getElementById('op-hero-subtitle').value = h.subtitle || '';
+      document.getElementById('op-hero-price').value = String(h.price ?? 22000);
+
+      imageDrafts.hero = {
+        baseSrc: h.image || IMAGE_PRESETS[0].src,
+        zoom: 1,
+        panX: 0,
+        panY: 0,
+        brightness: 100,
+        contrast: 100
+      };
+      renderImageEditor('hero');
+    }
+
+    function handleSaveStoreSettings(event) {
+      event.preventDefault();
+
+      storeState.isOpen = Boolean(document.getElementById('op-store-is-open').checked);
+      storeState.brandName = (document.getElementById('op-brand-name').value || '').trim() || 'Pecel Lele Kremes Cah Jowo';
+      storeState.tagline = (document.getElementById('op-brand-tagline').value || '').trim() || 'Pecel Lele Nusantara';
+      storeState.whatsapp = (document.getElementById('op-whatsapp').value || '').trim() || '6281234567890';
+      storeState.instagram = (document.getElementById('op-instagram').value || '').trim() || '@pecellelecahjowo';
+      storeState.address = (document.getElementById('op-address').value || '').trim() || 'Jl. Melati Nusantara No. 28';
+      storeState.hours = (document.getElementById('op-hours').value || '').trim() || 'Setiap Hari: 11.00 – 23.00 WIB';
+      storeState.promoText = (document.getElementById('op-promo-text').value || '').trim();
+      storeState.promoActive = Boolean(document.getElementById('op-promo-active').checked);
+
+      storeState.hero = {
+        ...(storeState.hero || defaultStore.hero),
+        badge: (document.getElementById('op-hero-badge').value || '').trim() || 'Andalan Cah Jowo',
+        title: (document.getElementById('op-hero-title').value || '').trim() || 'Paket Lele Kremes Cah Jowo',
+        subtitle: (document.getElementById('op-hero-subtitle').value || '').trim() || 'Lele Goreng Kremes • Sambal Terasi & Ijo',
+        price: Math.max(0, Number(document.getElementById('op-hero-price').value) || 0),
+        image: imageDrafts.hero.baseSrc || IMAGE_PRESETS[0].src
+      };
+
+      if (safeWriteJson(STORAGE.STORE, storeState)) {
+        renderHeaderAndBanner();
+        renderHeroCard();
+        renderFooter();
+        refreshJsonPreview();
+        showToast('Pengaturan toko & Hero berhasil disimpan');
+      }
+    }
+
+    // =======================================================================
+    // 9. OPERATOR TAB 2: MENU CRUD & STOCK TOGGLE
+    // =======================================================================
+    function resetMenuForm() {
+      document.getElementById('op-menu-edit-id').value = '';
+      document.getElementById('op-menu-name').value = '';
+      document.getElementById('op-menu-category').value = 'Paket Lele & Kremes';
+      document.getElementById('op-menu-price').value = '';
+      document.getElementById('op-menu-tag').value = '';
+      document.getElementById('op-menu-desc').value = '';
+      document.getElementById('op-menu-available').checked = true;
+
+      document.getElementById('op-menu-form-heading').textContent = 'Tambah Item Menu Baru';
+      document.getElementById('op-menu-submit-btn').textContent = 'Simpan Menu';
+      document.getElementById('op-menu-cancel-btn').classList.add('hidden');
+
+      imageDrafts.menu = {
+        baseSrc: IMAGE_PRESETS[0].src,
+        zoom: 1,
+        panX: 0,
+        panY: 0,
+        brightness: 100,
+        contrast: 100
+      };
+      renderImageEditor('menu');
+    }
+
+    function startEditMenuItem(menuId) {
+      const item = menuState.find((m) => m.id === menuId);
+      if (!item) return;
+
+      document.getElementById('op-menu-edit-id').value = item.id;
+      document.getElementById('op-menu-name').value = item.name;
+      document.getElementById('op-menu-category').value = item.category;
+      document.getElementById('op-menu-price').value = String(item.price);
+      document.getElementById('op-menu-tag').value = item.tag || '';
+      document.getElementById('op-menu-desc').value = item.description || '';
+      document.getElementById('op-menu-available').checked = Boolean(item.available);
+
+      document.getElementById('op-menu-form-heading').textContent = `Edit Menu: ${item.name}`;
+      document.getElementById('op-menu-submit-btn').textContent = 'Perbarui Menu';
+      document.getElementById('op-menu-cancel-btn').classList.remove('hidden');
+
+      imageDrafts.menu = {
+        baseSrc: item.image || getFallbackImageForCategory(item.category),
+        zoom: 1,
+        panX: 0,
+        panY: 0,
+        brightness: 100,
+        contrast: 100
+      };
+      renderImageEditor('menu');
+      document.getElementById('op-menu-name').focus();
+    }
+
+    function handleSaveMenuForm(event) {
+      event.preventDefault();
+
+      const editId = (document.getElementById('op-menu-edit-id').value || '').trim();
+      const name = (document.getElementById('op-menu-name').value || '').trim();
+      const category = document.getElementById('op-menu-category').value || 'Paket Lele & Kremes';
+      const price = Math.max(0, Number(document.getElementById('op-menu-price').value) || 0);
+      const tag = (document.getElementById('op-menu-tag').value || '').trim();
+      const description = (document.getElementById('op-menu-desc').value || '').trim();
+      const available = Boolean(document.getElementById('op-menu-available').checked);
+      const image = imageDrafts.menu.baseSrc || getFallbackImageForCategory(category);
+
+      if (!name) {
+        showToast('Nama menu wajib diisi.');
+        return;
+      }
+
+      if (editId) {
+        const idx = menuState.findIndex((m) => m.id === editId);
+        if (idx !== -1) {
+          menuState[idx] = {
+            ...menuState[idx],
+            name,
+            category,
+            price,
+            tag,
+            description,
+            available,
+            image
+          };
+          if (!available && cartState[editId]) {
+            delete cartState[editId];
+            persistCart();
+          }
+        }
+      } else {
+        const newId = 'menu-' + Date.now() + '-' + Math.floor(Math.random() * 1000);
+        menuState.unshift({
+          id: newId,
+          name,
+          category,
+          price,
+          tag,
+          description: description || 'Hidangan spesial Pecel Lele Kremes Cah Jowo.',
+          available,
+          image
+        });
+      }
+
+      if (safeWriteJson(STORAGE.MENU, menuState)) {
+        resetMenuForm();
+        renderOperatorMenuList();
+        renderMenuGrid();
+        renderCartDrawer();
+        refreshJsonPreview();
+        showToast(editId ? `Menu "${name}" diperbarui` : `Menu "${name}" ditambahkan`);
+      }
+    }
+
+    function toggleMenuStock(menuId) {
+      const idx = menuState.findIndex((m) => m.id === menuId);
+      if (idx === -1) return;
+      menuState[idx].available = !menuState[idx].available;
+      if (!menuState[idx].available && cartState[menuId]) {
+        delete cartState[menuId];
+        persistCart();
+      }
+      if (safeWriteJson(STORAGE.MENU, menuState)) {
+        renderOperatorMenuList();
+        renderMenuGrid();
+        renderCartDrawer();
+        refreshJsonPreview();
+        showToast(`Status "${menuState[idx].name}": ${menuState[idx].available ? 'Tersedia' : 'Habis'}`);
+      }
+    }
+
+    function deleteMenuItem(menuId) {
+      const item = menuState.find((m) => m.id === menuId);
+      if (!item) return;
+      menuState = menuState.filter((m) => m.id !== menuId);
+      if (cartState[menuId]) {
+        delete cartState[menuId];
+        persistCart();
+      }
+      if (safeWriteJson(STORAGE.MENU, menuState)) {
+        renderOperatorMenuList();
+        renderMenuGrid();
+        renderCartDrawer();
+        refreshJsonPreview();
+        showToast(`Menu "${item.name}" dihapus`);
+      }
+    }
+
+    function renderOperatorMenuList() {
+      const listEl = document.getElementById('op-menu-list');
+      const countEl = document.getElementById('op-menu-count');
+      countEl.textContent = String(menuState.length);
+
+      if (menuState.length === 0) {
+        listEl.innerHTML = `<p class="py-6 text-center text-xs text-espressoMuted">Belum ada menu. Tambahkan menu baru di atas.</p>`;
+        return;
+      }
+
+      listEl.innerHTML = menuState.map((item) => {
+        const avail = Boolean(item.available);
+        const fallbackSrc = getFallbackImageForCategory(item.category);
+        return `
+          <div class="py-3 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+            <div class="flex items-center gap-3 min-w-0">
+              <img
+                src="${escapeHtml(item.image || fallbackSrc)}"
+                alt="${escapeHtml(item.name)}"
+                onerror="if(this.dataset.fb!=='1'){this.dataset.fb='1';this.src='${escapeHtml(fallbackSrc)}';}"
+                class="w-12 h-12 rounded-xl object-cover bg-stonewarm border border-linewarm shrink-0"
+              />
+              <div class="min-w-0">
+                <div class="flex items-center gap-2 flex-wrap">
+                  <span class="text-sm font-extrabold text-espresso truncate">${escapeHtml(item.name)}</span>
+                  <span class="px-2 py-0.5 rounded-md bg-alabaster border border-linewarm text-[10px] font-bold text-espressoMuted">
+                    ${escapeHtml(item.category)}
+                  </span>
+                </div>
+                <p class="text-xs font-bold text-chili tabular-nums mt-0.5">${formatRupiah(item.price)}</p>
+              </div>
+            </div>
+
+            <div class="flex items-center gap-2 shrink-0 flex-wrap">
+              <button
+                type="button"
+                onclick="toggleMenuStock('${escapeHtml(item.id)}')"
+                class="px-2.5 py-1.5 rounded-xl text-[11px] font-bold border transition cursor-pointer ${
+                  avail
+                    ? 'bg-sageSoft text-sageLeaf border-sageLeaf/25'
+                    : 'bg-amberSoft text-chili border-chili/25'
+                }"
+              >
+                ${avail ? 'Tersedia' : 'Habis'}
+              </button>
+              <button
+                type="button"
+                onclick="startEditMenuItem('${escapeHtml(item.id)}')"
+                class="px-2.5 py-1.5 rounded-xl bg-alabaster hover:bg-stonewarm border border-linewarm text-[11px] font-bold text-espresso cursor-pointer"
+              >
+                Edit
+              </button>
+              <button
+                type="button"
+                onclick="deleteMenuItem('${escapeHtml(item.id)}')"
+                class="px-2.5 py-1.5 rounded-xl bg-alabaster hover:bg-amberSoft border border-linewarm text-[11px] font-bold text-chili cursor-pointer"
+              >
+                Hapus
+              </button>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    // =======================================================================
+    // 10. IMAGE EDITOR (UPLOAD + CANVAS COMPRESSION, URL, PRESETS & FRAMING)
+    // =======================================================================
+    function renderImageEditor(target) {
+      const mountId = target === 'hero' ? 'op-hero-image-editor-mount' : 'op-menu-image-editor-mount';
+      const mount = document.getElementById(mountId);
+      if (!mount) return;
+
+      const draft = imageDrafts[target];
+      const presetsHtml = IMAGE_PRESETS.map((p) => `
+        <button
+          type="button"
+          onclick="applyImagePreset('${target}', '${p.id}')"
+          class="px-2.5 py-1.5 rounded-xl bg-surface hover:bg-amberSoft border border-linewarm hover:border-chili/30 text-[11px] font-bold text-espresso transition cursor-pointer"
+        >
+          ${escapeHtml(p.label)}
+        </button>
+      `).join('');
+
+      mount.innerHTML = `
+        <div class="rounded-2xl bg-surface border border-linewarm p-4 space-y-4">
+          <div class="flex flex-wrap items-center justify-between gap-2">
+            <div>
+              <h5 class="text-xs sm:text-sm font-extrabold text-espresso">
+                Editor Gambar ${target === 'hero' ? 'Hero' : 'Menu'}
+              </h5>
+              <p class="text-[11px] text-espressoMuted">
+                Unggah foto dari perangkat, tempel URL, pilih preset, atau atur framing lalu terapkan.
+              </p>
+            </div>
+            <button
+              type="button"
+              onclick="resetImageFraming('${target}')"
+              class="px-2.5 py-1 rounded-lg bg-alabaster hover:bg-stonewarm border border-linewarm text-[11px] font-bold text-espresso cursor-pointer"
+            >
+              Reset Framing
+            </button>
+          </div>
+
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-4 items-start">
+            <!-- Live Preview & Drag-to-Pan -->
+            <div class="lg:col-span-5 space-y-1.5">
+              <div
+                id="img-editor-box-${target}"
+                onmousedown="beginImageDrag(event, '${target}')"
+                ontouchstart="beginImageDrag(event, '${target}')"
+                class="relative aspect-[4/3] w-full rounded-2xl overflow-hidden bg-stonewarm border border-linewarm select-none cursor-grab active:cursor-grabbing"
+              >
+                <img
+                  id="img-editor-preview-${target}"
+                  src="${escapeHtml(draft.baseSrc)}"
+                  alt="Pratinjau gambar"
+                  onerror="if(this.dataset.fb!=='1'){this.dataset.fb='1';this.src='${escapeHtml(IMAGE_PRESETS[0].src)}';}"
+                  style="${getDraftCssTransform(draft)}"
+                  class="w-full h-full object-cover pointer-events-none"
+                />
+                <span class="pointer-events-none absolute bottom-2 right-2 px-2 py-0.5 rounded-md bg-espresso/75 text-[10px] font-semibold text-surface">
+                  Geser foto
+                </span>
+              </div>
+              <p class="text-[11px] text-espressoSoft tabular-nums">
+                Zoom: <span id="lbl-zoom-${target}">${draft.zoom.toFixed(1)}x</span> &bull;
+                X: <span id="lbl-panx-${target}">${draft.panX}%</span> &bull;
+                Y: <span id="lbl-pany-${target}">${draft.panY}%</span>
+              </p>
+            </div>
+
+            <!-- Upload, URL, Presets & Framing Controls -->
+            <div class="lg:col-span-7 space-y-3">
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+                <div class="p-2.5 rounded-xl bg-alabaster border border-linewarm">
+                  <label class="block text-[11px] font-bold text-espresso mb-1">Unggah File Gambar</label>
+                  <input
+                    type="file"
+                    accept="image/*"
+                    onchange="handleImageFileChange(event, '${target}')"
+                    class="block w-full text-[11px] text-espressoMuted file:mr-2 file:py-1 file:px-2.5 file:rounded-lg file:border-0 file:text-[11px] file:font-bold file:bg-amberSoft file:text-chili hover:file:bg-chili hover:file:text-surface cursor-pointer"
+                  />
+                </div>
+
+                <div class="p-2.5 rounded-xl bg-alabaster border border-linewarm">
+                  <label class="block text-[11px] font-bold text-espresso mb-1">URL Gambar</label>
+                  <input
+                    type="url"
+                    value="${escapeHtml(draft.baseSrc.startsWith('data:') ? '' : draft.baseSrc)}"
+                    oninput="handleImageUrlChange(this.value, '${target}')"
+                    placeholder="https://contoh.com/foto.jpg"
+                    class="w-full px-2.5 py-1.5 rounded-lg bg-surface border border-linewarm text-xs text-espresso focus:outline-none focus:ring-2 focus:ring-chili/25"
+                  />
+                </div>
+              </div>
+
+              <div class="p-2.5 rounded-xl bg-alabaster border border-linewarm space-y-1.5">
+                <p class="text-[11px] font-bold text-espresso">Preset Kuliner Nusantara</p>
+                <div class="flex flex-wrap gap-1.5">
+                  ${presetsHtml}
+                </div>
+              </div>
+
+              <div class="p-3 rounded-xl bg-alabaster border border-linewarm grid grid-cols-2 gap-3">
+                <div>
+                  <label class="flex justify-between text-[11px] font-bold text-espresso mb-1">
+                    <span>Zoom</span>
+                    <span id="val-zoom-${target}">${draft.zoom.toFixed(1)}x</span>
+                  </label>
+                  <input
+                    type="range"
+                    min="1"
+                    max="2.2"
+                    step="0.1"
+                    value="${draft.zoom}"
+                    oninput="updateDraftSlider('${target}', 'zoom', this.value)"
+                    class="w-full accent-chili cursor-pointer"
+                  />
+                </div>
+
+                <div>
+                  <label class="flex justify-between text-[11px] font-bold text-espresso mb-1">
+                    <span>Kecerahan</span>
+                    <span id="val-brightness-${target}">${draft.brightness}%</span>
+                  </label>
+                  <input
+                    type="range"
+                    min="75"
+                    max="130"
+                    step="5"
+                    value="${draft.brightness}"
+                    oninput="updateDraftSlider('${target}', 'brightness', this.value)"
+                    class="w-full accent-chili cursor-pointer"
+                  />
+                </div>
+
+                <div>
+                  <label class="flex justify-between text-[11px] font-bold text-espresso mb-1">
+                    <span>Posisi X</span>
+                    <span id="val-panx-${target}">${draft.panX}%</span>
+                  </label>
+                  <input
+                    type="range"
+                    min="-30"
+                    max="30"
+                    step="1"
+                    value="${draft.panX}"
+                    oninput="updateDraftSlider('${target}', 'panX', this.value)"
+                    class="w-full accent-chili cursor-pointer"
+                  />
+                </div>
+
+                <div>
+                  <label class="flex justify-between text-[11px] font-bold text-espresso mb-1">
+                    <span>Kontras</span>
+                    <span id="val-contrast-${target}">${draft.contrast}%</span>
+                  </label>
+                  <input
+                    type="range"
+                    min="75"
+                    max="130"
+                    step="5"
+                    value="${draft.contrast}"
+                    oninput="updateDraftSlider('${target}', 'contrast', this.value)"
+                    class="w-full accent-chili cursor-pointer"
+                  />
+                </div>
+
+                <div class="col-span-2">
+                  <label class="flex justify-between text-[11px] font-bold text-espresso mb-1">
+                    <span>Posisi Y</span>
+                    <span id="val-pany-${target}">${draft.panY}%</span>
+                  </label>
+                  <input
+                    type="range"
+                    min="-30"
+                    max="30"
+                    step="1"
+                    value="${draft.panY}"
+                    oninput="updateDraftSlider('${target}', 'panY', this.value)"
+                    class="w-full accent-chili cursor-pointer"
+                  />
+                </div>
+              </div>
+
+              <div class="flex items-center justify-between gap-2">
+                <span class="text-[11px] text-espressoSoft">Terapkan framing untuk mengunci hasil crop ke gambar.</span>
+                <button
+                  type="button"
+                  onclick="bakeDraftToCanvas('${target}')"
+                  class="px-3.5 py-2 rounded-xl bg-sageLeaf hover:opacity-95 text-surface text-xs font-bold transition cursor-pointer shrink-0"
+                >
+                  Terapkan Framing
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      `;
+    }
+
+    function getDraftCssTransform(draft) {
+      return `transform: translate(${draft.panX}%, ${draft.panY}%) scale(${draft.zoom}); filter: brightness(${draft.brightness}%) contrast(${draft.contrast}%);`;
+    }
+
+    function syncDraftPreviewStyle(target) {
+      const draft = imageDrafts[target];
+      const imgEl = document.getElementById(`img-editor-preview-${target}`);
+      if (imgEl) {
+        imgEl.src = draft.baseSrc || IMAGE_PRESETS[0].src;
+        imgEl.setAttribute('style', getDraftCssTransform(draft));
+      }
+      const setTxt = (id, text) => {
+        const el = document.getElementById(id);
+        if (el) el.textContent = text;
+      };
+      setTxt(`lbl-zoom-${target}`, `${draft.zoom.toFixed(1)}x`);
+      setTxt(`val-zoom-${target}`, `${draft.zoom.toFixed(1)}x`);
+      setTxt(`lbl-panx-${target}`, `${draft.panX}%`);
+      setTxt(`val-panx-${target}`, `${draft.panX}%`);
+      setTxt(`lbl-pany-${target}`, `${draft.panY}%`);
+      setTxt(`val-pany-${target}`, `${draft.panY}%`);
+      setTxt(`val-brightness-${target}`, `${draft.brightness}%`);
+      setTxt(`val-contrast-${target}`, `${draft.contrast}%`);
+    }
+
+    function applyImagePreset(target, presetId) {
+      const preset = IMAGE_PRESETS.find((p) => p.id === presetId) || IMAGE_PRESETS[0];
+      imageDrafts[target] = {
+        baseSrc: preset.src,
+        zoom: 1,
+        panX: 0,
+        panY: 0,
+        brightness: 100,
+        contrast: 100
+      };
+      renderImageEditor(target);
+      showToast(`Preset "${preset.label}" dipilih`);
+    }
+
+    function handleImageUrlChange(urlValue, target) {
+      const trimmed = String(urlValue || '').trim();
+      imageDrafts[target].baseSrc = trimmed || IMAGE_PRESETS[0].src;
+      syncDraftPreviewStyle(target);
+    }
+
+    function handleImageFileChange(event, target) {
+      const file = event.target && event.target.files ? event.target.files[0] : null;
+      if (!file) return;
+
+      if (!file.type || !file.type.startsWith('image/')) {
+        showToast('Pilih berkas gambar yang valid (JPG, PNG, atau WebP).');
+        return;
+      }
+
+      const reader = new FileReader();
+      reader.onload = (e) => {
+        const img = new Image();
+        img.onload = () => {
+          try {
+            const maxSide = 720;
+            let w = img.width;
+            let h = img.height;
+            if (w > maxSide || h > maxSide) {
+              if (w >= h) {
+                h = Math.round((h * maxSide) / w);
+                w = maxSide;
+              } else {
+                w = Math.round((w * maxSide) / h);
+                h = maxSide;
+              }
+            }
+            const canvas = document.createElement('canvas');
+            canvas.width = w;
+            canvas.height = h;
+            const ctx = canvas.getContext('2d');
+            ctx.drawImage(img, 0, 0, w, h);
+
+            imageDrafts[target] = {
+              baseSrc: canvas.toDataURL('image/jpeg', 0.76),
+              zoom: 1,
+              panX: 0,
+              panY: 0,
+              brightness: 100,
+              contrast: 100
+            };
+            renderImageEditor(target);
+            showToast('Gambar diunggah & dikompresi otomatis');
+          } catch (err) {
+            showToast('Gagal memproses berkas gambar.');
+          }
+        };
+        img.onerror = () => showToast('Berkas gambar tidak dapat dibaca.');
+        img.src = e.target.result;
+      };
+      reader.readAsDataURL(file);
+    }
+
+    function updateDraftSlider(target, key, rawVal) {
+      const num = Number(rawVal);
+      const draft = imageDrafts[target];
+      if (key === 'zoom') draft.zoom = Math.min(2.2, Math.max(1, num));
+      if (key === 'panX') draft.panX = Math.min(30, Math.max(-30, num));
+      if (key === 'panY') draft.panY = Math.min(30, Math.max(-30, num));
+      if (key === 'brightness') draft.brightness = Math.min(130, Math.max(75, num));
+      if (key === 'contrast') draft.contrast = Math.min(130, Math.max(75, num));
+      syncDraftPreviewStyle(target);
+    }
+
+    function resetImageFraming(target) {
+      imageDrafts[target] = {
+        ...imageDrafts[target],
+        zoom: 1,
+        panX: 0,
+        panY: 0,
+        brightness: 100,
+        contrast: 100
+      };
+      renderImageEditor(target);
+    }
+
+    function bakeDraftToCanvas(target) {
+      const draft = imageDrafts[target];
+      const img = new Image();
+      img.crossOrigin = 'anonymous';
+      img.onload = () => {
+        try {
+          const canvas = document.createElement('canvas');
+          canvas.width = 640;
+          canvas.height = 480;
+          const ctx = canvas.getContext('2d');
+          ctx.filter = `brightness(${draft.brightness}%) contrast(${draft.contrast}%)`;
+
+          const targetRatio = canvas.width / canvas.height;
+          const imgRatio = img.width / img.height;
+          let drawW = canvas.width;
+          let drawH = canvas.height;
+          if (imgRatio > targetRatio) {
+            drawW = canvas.height * imgRatio;
+            drawH = canvas.height;
+          } else {
+            drawW = canvas.width;
+            drawH = canvas.width / imgRatio;
+          }
+          drawW *= draft.zoom;
+          drawH *= draft.zoom;
+
+          const dx = (canvas.width - drawW) / 2 + (draft.panX / 100) * canvas.width;
+          const dy = (canvas.height - drawH) / 2 + (draft.panY / 100) * canvas.height;
+          ctx.drawImage(img, dx, dy, drawW, drawH);
+
+          imageDrafts[target] = {
+            baseSrc: canvas.toDataURL('image/jpeg', 0.8),
+            zoom: 1,
+            panX: 0,
+            panY: 0,
+            brightness: 100,
+            contrast: 100
+          };
+          renderImageEditor(target);
+          showToast('Framing gambar diterapkan');
+        } catch (err) {
+          showToast('Framing visual disiapkan (URL lintas domain tidak dapat di-bake langsung).');
+        }
+      };
+      img.onerror = () => {
+        showToast('Gambar gagal dimuat untuk diterapkan.');
+      };
+      img.src = draft.baseSrc || IMAGE_PRESETS[0].src;
+    }
+
+    let dragCtx = null;
+    function beginImageDrag(event, target) {
+      const pt = event.type === 'touchstart' ? event.touches[0] : event;
+      if (!pt) return;
+      const draft = imageDrafts[target];
+      dragCtx = {
+        target,
+        startX: pt.clientX,
+        startY: pt.clientY,
+        origX: draft.panX,
+        origY: draft.panY
+      };
+
+      const onMove = (ev) => {
+        if (!dragCtx) return;
+        const mPt = ev.type === 'touchmove' ? ev.touches[0] : ev;
+        if (!mPt) return;
+        const dx = mPt.clientX - dragCtx.startX;
+        const dy = mPt.clientY - dragCtx.startY;
+        imageDrafts[dragCtx.target].panX = Math.round(Math.min(30, Math.max(-30, dragCtx.origX + dx * 0.22)));
+        imageDrafts[dragCtx.target].panY = Math.round(Math.min(30, Math.max(-30, dragCtx.origY + dy * 0.22)));
+        syncDraftPreviewStyle(dragCtx.target);
+      };
+
+      const onEnd = () => {
+        dragCtx = null;
+        window.removeEventListener('mousemove', onMove);
+        window.removeEventListener('mouseup', onEnd);
+        window.removeEventListener('touchmove', onMove);
+        window.removeEventListener('touchend', onEnd);
+      };
+
+      window.addEventListener('mousemove', onMove);
+      window.addEventListener('mouseup', onEnd);
+      window.addEventListener('touchmove', onMove, { passive: false });
+      window.addEventListener('touchend', onEnd);
+    }
+
+    // =======================================================================
+    // 11. OPERATOR TAB 3: PIN, EXPORT, IMPORT & RESET
+    // =======================================================================
+    function handleChangePin(event) {
+      event.preventDefault();
+      const pinInput = document.getElementById('op-new-pin-input');
+      const nextPin = (pinInput.value || '').trim();
+      if (nextPin.length < 4) {
+        showToast('PIN minimal 4 karakter.');
+        return;
+      }
+      if (setStoredPin(nextPin)) {
+        pinInput.value = '';
+        showToast('PIN operator berhasil diperbarui');
+      }
+    }
+
+    function buildExportPayload() {
+      return {
+        app: 'Pecel Lele Kremes Cah Jowo - Pecel Lele Nusantara',
+        exportedAt: new Date().toISOString(),
+        store: storeState,
+        menu: menuState
+      };
+    }
+
+    function refreshJsonPreview() {
+      const box = document.getElementById('op-json-preview');
+      if (box) {
+        box.value = JSON.stringify(buildExportPayload(), null, 2);
+      }
+    }
+
+    function exportStoreJson() {
+      try {
+        const jsonStr = JSON.stringify(buildExportPayload(), null, 2);
+        refreshJsonPreview();
+        const blob = new Blob([jsonStr], { type: 'application/json' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = 'cah-jowo-nusantara-backup.json';
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+        showToast('Cadangan JSON diunduh');
+      } catch (err) {
+        showToast('Gagal mengekspor berkas JSON.');
+      }
+    }
+
+    function importStoreJson(event) {
+      const file = event.target && event.target.files ? event.target.files[0] : null;
+      if (!file) return;
+
+      const reader = new FileReader();
+      reader.onload = (e) => {
+        try {
+          const parsed = JSON.parse(e.target.result);
+          if (!parsed || typeof parsed !== 'object' || !Array.isArray(parsed.menu)) {
+            showToast('Struktur berkas JSON tidak sesuai.');
+            return;
+          }
+
+          const freshStore = createDefaultStore();
+          Object.assign(storeState, freshStore, parsed.store || {});
+          storeState.hero = {
+            ...freshStore.hero,
+            ...((parsed.store && parsed.store.hero) || {})
+          };
+          menuState = parsed.menu.filter((item) => item && item.name);
+
+          const okStore = safeWriteJson(STORAGE.STORE, storeState);
+          const okMenu = safeWriteJson(STORAGE.MENU, menuState);
+          if (okStore && okMenu) {
+            renderAllStorefront();
+            populateStoreForm();
+            renderOperatorMenuList();
+            refreshJsonPreview();
+            showToast('Data JSON berhasil diimpor');
+          }
+        } catch (err) {
+          showToast('Berkas JSON tidak valid atau rusak.');
+        } finally {
+          event.target.value = '';
+        }
+      };
+      reader.readAsText(file);
+    }
+
+    function resetAllStoreData() {
+      const freshStore = createDefaultStore();
+      const freshMenu = createDefaultMenu();
+
+      Object.keys(storeState).forEach((k) => delete storeState[k]);
+      Object.assign(storeState, freshStore);
+      menuState = freshMenu;
+      cartState = {};
+
+      safeWriteJson(STORAGE.STORE, storeState);
+      safeWriteJson(STORAGE.MENU, menuState);
+      safeWriteJson(STORAGE.CART, cartState);
+
+      renderAllStorefront();
+      populateStoreForm();
+      resetMenuForm();
+      renderOperatorMenuList();
+      refreshJsonPreview();
+      showToast('Katalog & pengaturan dikembalikan ke setelan awal');
+    }
+
+    // =======================================================================
+    // 12. INITIALIZATION
+    // =======================================================================
+    // 12. EMBED HEIGHT REPORTING & INITIALIZATION
+    // =======================================================================
+    function notifyEmbedHeight() {
+      try {
+        if (!window.parent || window.parent === window) return;
+        const height = Math.max(
+          document.documentElement ? document.documentElement.scrollHeight : 0,
+          document.body ? document.body.scrollHeight : 0
+        );
+        window.parent.postMessage(
+          {
+            type: 'CAH_JOWO_EMBED_RESIZE',
+            source: 'pecel-lele-kremes-cah-jowo',
+            height
+          },
+          '*'
+        );
+      } catch (err) {
+        // Ignore postMessage restrictions in strict sandbox contexts
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      renderAllStorefront();
+      notifyEmbedHeight();
+      window.addEventListener('resize', () => {
+        notifyEmbedHeight();
+      });
+      if (typeof ResizeObserver === 'function' && document.body) {
+        const ro = new ResizeObserver(() => notifyEmbedHeight());
+        ro.observe(document.body);
+      }
+    });
+  </script>
+</body>
+</html>
